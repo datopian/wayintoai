@@ -53,12 +53,12 @@ Willison ([simonwillison.net](https://simonwillison.net/2026/Sep/6/research-acce
 
 ## Why this matters
 
-This is OpenAI, on the record, describing its **own** research loop being automated: 3.1 agent-days per human-day, researcher spend up ~100× in seven months, an "automated research intern" declared shipped, an "automated AI researcher" pencilled in for early 2028 — all narrated in the vocabulary of recursive self-improvement. It is the internal-metrics companion to the [[openai-navier-stokes-millennium-proof|Navier–Stokes result]] and the [[pace-of-ai-advance-navier-stokes|"the pace is the story"]] argument: the thing accelerating is the process that builds the models.
+This is OpenAI, on the record, describing its **own** research loop being automated: 3.1 agent-days per human-day, researcher spend up ~100× in seven months, an "automated research intern" declared shipped, an "automated AI researcher" pencilled in for early 2028 — all narrated in the vocabulary of recursive self-improvement. It is the internal-metrics companion to the [[openai-navier-stokes-millennium-proof|Navier–Stokes result]] and the [pace-of-advance argument](/posts/2026-09-10-the-pace-is-the-story): the thing accelerating is the process that builds the models.
 
 ## See also
 
 - [[an-alien-mind-pachocki]] — Pachocki's same-day essay: CoT monitoring is degrading as models get more capable; he expects OpenAI's pace could sustain into RSI, and hopes for voluntary slowdowns
-- [[pace-of-ai-advance-navier-stokes]] — the pace-of-advance comment this data reinforces
+- [Post: This is definitely getting towards superintelligence](/posts/2026-09-10-the-pace-is-the-story) — the short take this data reinforces
 - [[openai-navier-stokes-millennium-proof]] — the Navier–Stokes proof, run by ~10k agents days after this post
 - [[anthropic-recursive-self-improvement]] — Anthropic's parallel data on the feedback loop
 - [[openai-agent-swarm-hugging-face-breach]] · [[openai-wiki-incident]] — the incidents behind Section 4's RL pause

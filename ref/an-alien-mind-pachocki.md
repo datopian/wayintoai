@@ -67,7 +67,7 @@ The **chief scientist of the lab leading the frontier** is saying, on the record
 ## See also
 
 - [[openai-research-acceleration-view-inside]] — the same-day metrics post; the empirical half of this argument
-- [[pace-of-ai-advance-navier-stokes]] — the pace-of-advance comment
+- [Post: This is definitely getting towards superintelligence](/posts/2026-09-10-the-pace-is-the-story) — the short take this ref feeds into
 - [[openai-navier-stokes-millennium-proof]] — the maths result OpenAI says it *isn't* prioritising
 - [[jacob-coxon-anthropic-resignation]] — the individual-conscience version of the same case
 - [[elizabeth-barnes-we-are-not-on-top-of-it]] — "we are not on top of it," from METR

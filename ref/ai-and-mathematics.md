@@ -17,7 +17,7 @@ Major discoveries and milestones where AI systems have contributed to — or ind
 - **July 30, 2026** — Dominik Peters uses GPT-5.6 Sol Ultra to settle a 25-year-old voting theory question (combining 3 ranked choices is fundamentally hard).
 - **July 31, 2026** — Philip Arathoon disproves the Maxwell conjecture (153 years open) via counterexample found by GPT-5.6 Sol.
 - **August 1, 2026** — OpenAI's Astra model solves 10 major open problems in mathematics, quantum complexity, and theoretical computer science. Cost: <$2,000 at Sol API prices. Includes flagship problems of entire fields.
-- **September 8, 2026** — OpenAI announces a Lean-formalized proof that the Navier–Stokes equations can blow up in finite time — resolving one of the seven Clay **Millennium Prize Problems** (~90 years open). Produced by ~10,000 concurrent agents in ~88 hours, using an *unreleased internal model training only since August 28* that OpenAI's own chart puts at 2–3× Astra's pass rate. Contested on priority/conduct grounds by an NYU/Anthropic team (Buckmaster & Alpöge); Terence Tao warns of "strip-mining" the field. [[openai-navier-stokes-millennium-proof]] · [[pace-of-ai-advance-navier-stokes]]
+- **September 8, 2026** — OpenAI announces a Lean-formalized proof that the Navier–Stokes equations can blow up in finite time — resolving one of the seven Clay **Millennium Prize Problems** (~90 years open). Produced by ~10,000 concurrent agents in ~88 hours, using an *unreleased internal model training only since August 28* that OpenAI's own chart puts at 2–3× Astra's pass rate. Contested on priority/conduct grounds by an NYU/Anthropic team (Buckmaster & Alpöge); Terence Tao warns of "strip-mining" the field. [[openai-navier-stokes-millennium-proof]]
 
 ## Context
 
@@ -28,5 +28,4 @@ These are not AI "solving math" in the sense of finding entirely new branches or
 - [[ai-is-rewriting-mathematics]] — Nofil's Substack timeline and commentary
 - [[openai-unit-distance-problem-ai-proof]] — May 2026 Erdős unit-distance disproof
 - [[openai-navier-stokes-millennium-proof]] — Sep 2026 Navier–Stokes Millennium Problem claim + priority controversy
-- [[pace-of-ai-advance-navier-stokes]] — comment: the pace of advance, not the proof, is the headline
 - [[agent-psychosis]] — the psychological dimension of human-AI interaction in expert domains

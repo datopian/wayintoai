@@ -31,7 +31,7 @@ The direction of the answer matters: OpenAI's result is a **blow-up** (non-smoot
 
 ### The chart (asset)
 
-The embedded figure is OpenAI's own: *"Performance of GPT-6 Astra and our Internal Model on a curated set of open math problems."* Pass rate vs test-time compute (log scale). The new internal model sits far above Astra at every compute budget — roughly **0.26 → 0.48** pass rate across the sweep versus Astra's **~0.08 → 0.17**. See the companion note [[pace-of-ai-advance-navier-stokes]] for why this sub-plot, not the proof, may be the real story.
+The embedded figure is OpenAI's own: *"Performance of GPT-6 Astra and our Internal Model on a curated set of open math problems."* Pass rate vs test-time compute (log scale). The new internal model sits far above Astra at every compute budget — roughly **0.26 → 0.48** pass rate across the sweep versus Astra's **~0.08 → 0.17**. See the post [This is definitely getting towards superintelligence](/posts/2026-09-10-the-pace-is-the-story) for why this sub-plot, not the proof, may be the real story.
 
 ## The controversy
 
@@ -52,7 +52,7 @@ The dispute is now part of the story, not a footnote: the same episode raises (a
 
 ## See also
 
-- [[pace-of-ai-advance-navier-stokes]] — the companion note: the pace, not the proof, is the headline
+- [Post: This is definitely getting towards superintelligence](/posts/2026-09-10-the-pace-is-the-story) — the pace, not the proof, is the headline
 - [[ai-and-mathematics]] — running timeline of AI mathematical milestones (Navier–Stokes added)
 - [[ai-is-rewriting-mathematics]] — Nofil's July–August timeline and the "mathematicians crashing out" reaction
 - [[openai-unit-distance-problem-ai-proof]] — May 2026 Erdős unit-distance disproof, the previous "first"
