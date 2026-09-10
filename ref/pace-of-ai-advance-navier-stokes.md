@@ -6,7 +6,7 @@ tags: [ai, mathematics, navier-stokes, pace-of-progress, scaling, superintellige
 
 # The real story isn't the proof — it's the pace
 
-*A short comment, prompted by [[openai-navier-stokes-millennium-proof]].*
+*A short comment, prompted by [[openai-navier-stokes-millennium-proof]]. Written up as a full post: [A Millennium Problem fell this week. The pace is the story.](/posts/2026-09-10-the-pace-is-the-story)*
 
 On September 8, 2026, OpenAI announced a proof — Lean-formalized — that the Navier–Stokes equations can blow up in finite time. That would settle one of the seven Millennium Prize Problems: a genuine flagship of modern mathematics, open for roughly ninety years. There is a real controversy attached (priority, a rival NYU/Anthropic team, Codex drafts, intimidation allegations, Terence Tao's "strip-mining" lament) and it deserves attention. See the [[openai-navier-stokes-millennium-proof|main entry]] for all of that.
 
