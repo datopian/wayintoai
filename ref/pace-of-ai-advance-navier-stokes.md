@@ -40,5 +40,6 @@ I don't want to over-claim from a single announcement, especially a contested on
 - [[ai-and-mathematics]] — the milestone timeline
 - [[ai-is-rewriting-mathematics]] — the July–August run
 - [[openai-research-acceleration-view-inside]] — OpenAI's own internal metrics: 3.1 agent-workdays per human workday, "automated research intern" declared shipped
+- [[an-alien-mind-pachocki]] — OpenAI's Chief Scientist: the pace could sustain into RSI, and no lab has solved alignment/monitoring well enough to keep scaling at max speed
 - [[anthropic-recursive-self-improvement]] — the feedback-loop framing
 - [[elizabeth-barnes-we-are-not-on-top-of-it]] — "we are not on top of it," from the oversight side
