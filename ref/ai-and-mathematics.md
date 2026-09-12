@@ -19,6 +19,8 @@ Major discoveries and milestones where AI systems have contributed to — or ind
 - **August 1, 2026** — OpenAI's Astra model solves 10 major open problems in mathematics, quantum complexity, and theoretical computer science. Cost: <$2,000 at Sol API prices. Includes flagship problems of entire fields.
 - **September 8, 2026** — OpenAI announces a Lean-formalized proof that the Navier–Stokes equations can blow up in finite time — resolving one of the seven Clay **Millennium Prize Problems** (~90 years open). Produced by ~10,000 concurrent agents in ~88 hours, using an *unreleased internal model training only since August 28* that OpenAI's own chart puts at 2–3× Astra's pass rate. Contested on priority/conduct grounds by an NYU/Anthropic team (Buckmaster & Alpöge); Terence Tao warns of "strip-mining" the field. [[openai-navier-stokes-millennium-proof]]
 
+- **September 11, 2026** — 25 Fields Medallists (including Tao, Deligne, Hairer, Scholze, Smirnov, Viazovska, Zelmanov, and others) sign a declaration protesting the AI industry's rush to solve major mathematical problems as a benchmark. Argues the goals of AI companies and the mathematical community are "severely misaligned," warns of mass-producing "true/false" statements destroying the field's fertile ground, and calls out attribution/plagiarism issues from rushed AI-produced proofs. [[tao-fields-medalists-ai-mathematics-declaration]]
+
 ## Context
 
 These are not AI "solving math" in the sense of finding entirely new branches or conjectures — but they are AI systems conducting original research across entire fields, producing proofs that mathematicians describe with Fields-medal-level framing. The 10 Astra proofs alone would, if produced by a single human, be considered "an entire generation's worth of research across several fields compressed into a single person's output."
@@ -28,4 +30,5 @@ These are not AI "solving math" in the sense of finding entirely new branches or
 - [[ai-is-rewriting-mathematics]] — Nofil's Substack timeline and commentary
 - [[openai-unit-distance-problem-ai-proof]] — May 2026 Erdős unit-distance disproof
 - [[openai-navier-stokes-millennium-proof]] — Sep 2026 Navier–Stokes Millennium Problem claim + priority controversy
+- [[tao-fields-medalists-ai-mathematics-declaration]] — Sep 11, 2026: 25 Fields Medallists declare "severe misalignment" of AI in mathematics
 - [[agent-psychosis]] — the psychological dimension of human-AI interaction in expert domains
