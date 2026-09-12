@@ -60,9 +60,11 @@ OpenAI, he says, will keep seeking technical fixes for alignment and monitoring,
 - Wants the **Preparedness Framework / Responsible Scaling Policy** evolved into "widely mandated safety bars," enforced by third-party auditors, government agencies, or international bodies.
 - OpenAI's three "north stars" (with Sam Altman): an automated AI researcher; delivering scientific/economic benefits; a personal AGI for everyone. Pachocki says the first is "by far the most urgent."
 
-## Why this matters
+## Why this matters (updated Sep 9–10, 2026)
 
 The **chief scientist of the lab leading the frontier** is saying, on the record and in plain language: our own internal results suggest the pace can carry into recursive self-improvement; the systems are grown, not understood; our main safety-validation tool (CoT monitoring) is getting *less* reliable as models get *more* capable; **no lab has solved alignment and monitoring well enough to keep scaling at maximum speed much longer**; and the responses he wants are voluntary slowdowns and urgent international coordination. It is the same warning as [[jacob-coxon-anthropic-resignation|Coxon's resignation]] and [[elizabeth-barnes-we-are-not-on-top-of-it|Barnes on oversight]], but from the top of OpenAI's research org rather than someone leaving.
+
+On September 9–10, this essay became the centrepiece of a wave of insider warnings. Jacob Coxon resigned from Anthropic citing existential risk; Evan Hubinger, Alex Turner, Anna Wang, Samuel Marks, Jason Wolfe, Jonathan Schwarz, Ethan Perez, Julie Steele, and Drake Thomas all endorsed the same concerns; Gioia collected them as "the opening scene in a horror movie." Pachocki's essay is the establishment-side analogue: the Chief Scientist of the leading lab making the same case from inside.
 
 ## See also
 
