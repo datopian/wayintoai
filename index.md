@@ -39,6 +39,7 @@ showEditLink: false
 <p>Longer arguments, practical experiments, and developments worth paying attention to.</p>
 </div>
 <div class="way-home__post-list">
+<a href="/posts/2026-09-18-typesafe-jev-system-one">Jev makes the case for AI inside ordinary software</a>
 <a href="/posts/2026-08-26-run-multiple-threads-in-claude">How do I run multiple threads in Claude at the same time?</a>
 <a href="/posts/2026-08-20-is-claude-getting-worse-vs-codex">Is Claude getting worse (at least compared to Codex)?</a>
 <a href="/posts/2026-08-15-track-claude-code-codex-usage">How I track Claude Code and Codex usage in real time</a>

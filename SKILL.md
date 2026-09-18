@@ -137,6 +137,31 @@ Brief description with key details. Maximum 1-2 sentences.
 - Links resolve to ref/ entries
 - **Keep description to 1-2 sentences maximum** — concise but captures the essence
 
+### Featuring and newsletter selection
+
+Record editorial selection on the canonical post or reference entry:
+
+```yaml
+featured: true
+newsletter: standalone
+```
+
+- `featured: true` means selected for homepage coverage. The homepage is manually curated: also add its link to the existing post list in `index.md`. Metadata alone does not change the site.
+- `newsletter: weekly` means a candidate for the weekly roundup.
+- `newsletter: standalone` means strong enough to consider for a dedicated email; it can still be included in the weekly roundup if no dedicated email is sent.
+- Omit `newsletter` when there is no selection. These values record editorial intent, not approval to send or evidence of delivery.
+
+Keep the selection on one canonical item to avoid counting both a reference entry and its write-up. In a daily log, point to the selected item using repository-relative paths:
+
+```yaml
+newsletter_candidates:
+  - posts/2026-09-18-typesafe-jev-system-one.md
+```
+
+For a log-only item, add a small reference entry when selecting it for newsletter coverage, put the selection metadata there, and link it from the log. This keeps selection at item level when a day contains several entries. Log prose remains limited to 1–2 sentences per entry.
+
+During newsletter preparation, find candidates with `rg -n '^newsletter: (weekly|standalone)$' posts ref`, then read each item. After an item is actually emailed, add `newsletter_sent: YYYY-MM-DD` and, when available, `newsletter_url` to the canonical item; skip sent items by default in subsequent reviews. Selection and delivery are manual; no email automation is implied. The infrastructure changelog's `promote` flag remains a separate convention.
+
 ### 5. Git Workflow
 
 **Add files:**

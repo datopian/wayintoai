@@ -4,6 +4,8 @@ This file provides instructions and context for AI coding agents working on this
 
 ## Changelog
 
+For editorial featuring and newsletter selection, follow **Featuring and newsletter selection** in `SKILL.md`: use `featured` and `newsletter` on the canonical post/reference, and `newsletter_candidates` links in daily logs. These flags do not send email.
+
 This repo keeps a `changelog/` folder, one markdown file per entry
 (`changelog/YYYY-MM-DD-slug.md`, with `date`/`title`/`promote`
 frontmatter). This changelog is **only for platform and infrastructure
