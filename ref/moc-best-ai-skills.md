@@ -86,6 +86,10 @@ Zara Zhang's skill for beautiful web presentations without knowing CSS. "Show, d
 
 Rufus Pollock's `life-itself/changelog` — a convention, not a tool, for the gap where a good changelog skill still doesn't exist. One markdown block pasted verbatim into a repo's `AGENTS.md`; a longer `CONVENTION.md` fetched only when an entry is actually being drafted. Agents draft an entry at session-checkpoint time, matched to a three-tier weight (skip / one plain sentence / full feature writeup) so the log stays readable. Entries are one file per `changelog/YYYY-MM-DD-slug.md` with `date` / `title` / `promote` frontmatter; committing to the project's own repo is the automatic floor, anything beyond that is a manual promote. Deliberately a pasted convention rather than an auto-loaded skill, so it costs no context per session.
 
+## On the radar
+
+- **[[brag|BRAG]]** — turns a project into a 15–25 second launch video, poster frame, and share copy through one agent command. Looks interesting, but Rufus has not tried it yet, so it is a bookmark rather than part of the adopted shortlist.
+
 ## Selection criteria
 
 - **One skill per job.** Design, writing voice, slides — the shortlist, not a directory.

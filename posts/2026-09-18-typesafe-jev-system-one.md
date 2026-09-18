@@ -11,6 +11,8 @@ Some model launches promise a more capable assistant. TypeSafe's Jev raises a di
 
 ![TypeSafe's System One and Jev announcement](https://screenshotit.app/https://typesafe.ai/blog/introducing-system-one-models-and-jev)
 
+**Launch post:** [Introducing System One Models & Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), by TypeSafe founder Diogo Almeida.
+
 On September 15, TypeSafe announced Jev in early access as its first System One model. Founder Diogo Almeida describes the interface succinctly:
 
 > unstructured state in, typed probabilistic decisions out.
@@ -35,6 +37,10 @@ These examples are illustrative. You define the answer space and the criteria. Q
 
 The recommended programming pattern is to split a broad assessment into small judgments, ask them together, and combine the results in code. TypeSafe says those evaluations run in parallel, so additional questions add little latency. [Introduction](https://docs.typesafe.ai/introduction).
 
+![A TypeSafe security-incident workflow: narrow model judgments feed explicit branching and actions in code](https://framerusercontent.com/images/ih1bFwZGYJxlnijbTuXx3f9NeM.png?width=2048&height=704)
+
+*One of TypeSafe's published workflow examples: narrow probabilistic judgments feed explicit branching and actions in code. [See the launch post](https://typesafe.ai/blog/introducing-system-one-models-and-jev).*
+
 Imagine an issue tracker receiving a bug report. An application could ask whether the report describes data loss, whether reproduction instructions are present, and which product area it concerns. Ordinary code would then set priority and choose a queue. Those are our example decisions, but they show the appeal: the business rule remains visible, and the model supplies the part that requires interpretation.
 
 ## Why the probability matters
@@ -51,9 +57,27 @@ TypeSafe reports 193.6× faster and 444.6× cheaper performance in its workflow 
 
 The evaluation covers security incidents, agent trace observability, invoice processing, and customer service. It holds the workflow fixed and measures agreement against reference answers derived from GPT-6 Astra and Claude Fable 5.1 at high thinking settings. The comparison models use their providers' default reasoning settings. [Evaluation methodology](https://evals.typesafe.ai/).
 
+![TypeSafe's chart of average workflow accuracy against cost](https://framerusercontent.com/images/z4Uu1YpJeEZPBSMTCMI0CN2PX0.png?width=1672&height=918)
+
+*TypeSafe's result across four workflows puts Jev on the cost/accuracy frontier. This is company-reported evidence using model consensus as the reference, not an independent benchmark. [Methodology and qualifications](https://typesafe.ai/blog/introducing-system-one-models-and-jev).*
+
 This measures agreement with a model consensus inside particular workflows. It does not establish correctness against independently verified business outcomes, or show that Jev matches general-purpose models across all tasks. The results are promising evidence for the intended use case; their scope matters when interpreting the headline.
 
 There is a practical route to investigating further: TypeSafe has released a comparison adapter that runs the same style of questions through other providers. It exposes options for native structured outputs, probability or discrete answers, and malformed-output retries. That makes it possible to investigate which comparison is relevant to a particular application. [System One Adapter](https://github.com/typesafe-ai/system-one-adapter-python).
+
+## Doom is the demo that makes the idea click
+
+The launch post's best demonstration is Jev playing Doom. It makes roughly ten queries a second, turning a structured text representation of the game state into decisions quickly enough to react in real time. The model is not looking at pixels, and TypeSafe explicitly says a conventional Doom bot could play better; the point is that the same instruction-following decision interface can operate inside a fast interactive loop.
+
+[![Jev playing Doom while its probabilistic decisions and control graph update alongside the game](../assets/jev-doom-demo.jpg)](https://vimeo.com/1227495732/5c335e90e5)
+
+*Doom runs on the left while Jev's live judgments and the surrounding control graph remain visible on the right and below. Click the image to watch the full demo.*
+
+<iframe src="https://player.vimeo.com/video/1227495732?h=5c335e90e5&title=0&byline=0&portrait=0" style="aspect-ratio: 392 / 240; width: 100%; height: auto;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Jev playing Doom"></iframe>
+
+*Watch the embedded demo above, [open it on Vimeo](https://vimeo.com/1227495732/5c335e90e5), or see it in [TypeSafe's launch post](https://typesafe.ai/blog/introducing-system-one-models-and-jev).*
+
+That is more revealing than another classification example. If model calls become cheap and quick enough to sit inside a game loop, they can also sit inside interfaces, monitors, simulations, and other software that cannot wait seconds for a generated answer. TypeSafe also shows Jev [Wikiracing](https://vimeo.com/1227495711/88074bcc80), choosing among hundreds or thousands of links at each step.
 
 ## Type safety does not make a decision true
 
