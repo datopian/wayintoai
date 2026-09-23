@@ -9,8 +9,7 @@ image: /assets/claude-opus-5-5-benchmarks-2026-09-22.png
 
 Anthropic's first Claude 5.5 model (Sep 22, 2026). It matches Claude Fable 5.1 on most work, runs about 40% cheaper than Opus 5, and scores best of any model on Anthropic's alignment audit. It is also Anthropic's first release since it called for pacing the frontier.
 
-![Anthropic's performance table: Opus 5.5 vs Fable 5.1, Opus 5, GPT-6 Astra and GPT-5.6 Sol across nine benchmarks](/assets/claude-opus-5-5-benchmarks-2026-09-22.png)
-*From the announcement. Opus 5.5 leads seven of nine rows; GPT-6 Astra leads AutomationBench and Terminal-Bench-Science.*
+![Introducing Claude Opus 5.5](https://screenshotit.app/https://www.anthropic.com/claude-opus-5-5)
 
 ## Links
 
@@ -60,7 +59,10 @@ The safety section matters as much as the capability section. Opus 5.5 scores be
 
 > Models with greater capabilities—such as those that can fully automate the work of AI research itself—require a higher safety standard still. Our calls for pacing were based in large part on our expectation that such models could be trained soon.
 
-## Benchmarks (from the table above)
+## Benchmarks
+
+![Anthropic's performance table: Opus 5.5 vs Fable 5.1, Opus 5, GPT-6 Astra and GPT-5.6 Sol across nine benchmarks](/assets/claude-opus-5-5-benchmarks-2026-09-22.png)
+*From the announcement. Opus 5.5 leads seven of nine rows; GPT-6 Astra leads AutomationBench and Terminal-Bench-Science.*
 
 | Benchmark | Opus 5.5 | Fable 5.1 | Opus 5 | GPT-6 Astra | GPT-5.6 Sol |
 |---|---|---|---|---|---|
