@@ -82,6 +82,7 @@ Other alignment claims from the post: Astra never attempted to circumvent a Code
 - [[openai-agent-swarm-hugging-face-breach]] — the incident that directly motivated Astra's new scope-boundary alignment eval
 - [[moc-ai-security-incidents]]
 - [[gpt-5-5]]
+- [[claude-opus-5-5]] — Anthropic's Sep 22 response; see also [[moc-frontier-model-releases]]
 - [[anthropic-recursive-self-improvement]]
 
 ## Further reading

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 440" width="1060" height="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Frontier model scores on Terminal-Bench 4.0 and Terminal-Bench-Science 0.1, Jun–Sep 2026</title>
+<desc id="d">Claude releases: Terminal-Bench 4.0 Fable 5 42.0%, Opus 5 52.3%, Fable 5.1 55.8%, Opus 5.5 66.4%; Terminal-Bench-Science Fable 5 24.7%, Opus 5 29.0%, Fable 5.1 52.6%, Opus 5.5 58.7%. OpenAI: GPT-5.6 Sol 37.3% and 22.4%; GPT-6 Astra 57.9% and 64.6%.</desc>
+<style>
+  .bg{fill:#fcfcfb}.t1{fill:#0b0b0b}.t2{fill:#52514e}.t3{fill:#77766f}
+  .grid{stroke:#e4e3de;stroke-width:1}.base{stroke:#b9b8b0;stroke-width:1}
+  .c{stroke:#2a78d6}.cf{fill:#2a78d6}.o{stroke:#eb6834}.of{fill:#eb6834}
+  .ring{stroke:#fcfcfb}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}.t1{fill:#ffffff}.t2{fill:#c3c2b7}.t3{fill:#9a998f}
+    .grid{stroke:#2f2f2d}.base{stroke:#55544f}
+    .c{stroke:#3987e5}.cf{fill:#3987e5}.o{stroke:#d95926}.of{fill:#d95926}
+    .ring{stroke:#1a1a19}
+  }
+</style>
+<rect class="bg" width="1060" height="440" rx="8"/>
+<text class="t1" x="24" y="34" font-size="18" font-weight="600">Frontier models on agentic benchmarks, by release date</text>
+<g font-size="12"><line class="c" x1="26" y1="56" x2="46" y2="56" stroke-width="2"/><circle class="cf ring" cx="36" cy="56" r="4.5" stroke-width="2"/><text class="t2" x="52" y="60">Claude (Anthropic)</text><line class="o" x1="176" y1="56" x2="196" y2="56" stroke-width="2" stroke-dasharray="4 3"/><rect class="of ring" x="181.5" y="51.5" width="9" height="9" stroke-width="2"/><text class="t2" x="202" y="60">OpenAI</text></g>
+<text class="t1" x="70" y="80" font-size="14" font-weight="600">Terminal-Bench 4.0<tspan class="t3" font-weight="400" dx="8">Agentic coding</tspan></text>
+<line class="base" x1="70" x2="490" y1="352.0" y2="352.0"/>
+<text class="t3" x="62" y="356.0" font-size="11" text-anchor="end">0%</text>
+<line class="grid" x1="70" x2="490" y1="277.7" y2="277.7"/>
+<text class="t3" x="62" y="281.7" font-size="11" text-anchor="end">20%</text>
+<line class="grid" x1="70" x2="490" y1="203.4" y2="203.4"/>
+<text class="t3" x="62" y="207.4" font-size="11" text-anchor="end">40%</text>
+<line class="grid" x1="70" x2="490" y1="129.1" y2="129.1"/>
+<text class="t3" x="62" y="133.1" font-size="11" text-anchor="end">60%</text>
+<text class="t3" x="70.0" y="370" font-size="11" text-anchor="middle">Jun</text>
+<text class="t3" x="173.3" y="370" font-size="11" text-anchor="middle">Jul</text>
+<text class="t3" x="280.0" y="370" font-size="11" text-anchor="middle">Aug</text>
+<text class="t3" x="386.7" y="370" font-size="11" text-anchor="middle">Sep</text>
+<text class="t3" x="490.0" y="370" font-size="11" text-anchor="middle">Oct</text>
+<polyline class="o" fill="none" stroke-width="2" stroke-dasharray="4 3" stroke-linejoin="round" points="200.8,213.5 393.6,136.9"/>
+<rect class="of ring" x="195.8" y="208.5" width="10" height="10" stroke-width="2"/>
+<text x="200.8" y="237.5" font-size="11" text-anchor="middle"><tspan class="t2">GPT-5.6 Sol </tspan><tspan class="t1" font-weight="600">37.3%</tspan></text>
+<rect class="of ring" x="388.6" y="131.9" width="10" height="10" stroke-width="2"/>
+<text x="387.6" y="122.9" font-size="11" text-anchor="end"><tspan class="t2">GPT-6 Astra </tspan><tspan class="t1" font-weight="600">57.9%</tspan></text>
+<polyline class="c" fill="none" stroke-width="2" stroke-linejoin="round" points="97.5,196.0 252.5,157.7 386.7,144.7 459.0,105.4"/>
+<circle class="cf ring" cx="97.5" cy="196.0" r="5" stroke-width="2"/>
+<text x="97.5" y="182.0" font-size="11" text-anchor="middle"><tspan class="t2">Fable 5 </tspan><tspan class="t1" font-weight="600">42.0%</tspan></text>
+<circle class="cf ring" cx="252.5" cy="157.7" r="5" stroke-width="2"/>
+<text x="252.5" y="143.7" font-size="11" text-anchor="middle"><tspan class="t2">Opus 5 </tspan><tspan class="t1" font-weight="600">52.3%</tspan></text>
+<circle class="cf ring" cx="386.7" cy="144.7" r="5" stroke-width="2"/>
+<text x="394.7" y="164.7" font-size="11" text-anchor="start"><tspan class="t2">Fable 5.1 </tspan><tspan class="t1" font-weight="600">55.8%</tspan></text>
+<circle class="cf ring" cx="459.0" cy="105.4" r="5" stroke-width="2"/>
+<text x="459.0" y="91.4" font-size="11" text-anchor="middle"><tspan class="t2">Opus 5.5 </tspan><tspan class="t1" font-weight="600">66.4%</tspan></text>
+<text class="t1" x="540" y="80" font-size="14" font-weight="600">Terminal-Bench-Science 0.1<tspan class="t3" font-weight="400" dx="8">Agentic scientific research</tspan></text>
+<line class="base" x1="540" x2="960" y1="352.0" y2="352.0"/>
+<text class="t3" x="532" y="356.0" font-size="11" text-anchor="end">0%</text>
+<line class="grid" x1="540" x2="960" y1="277.7" y2="277.7"/>
+<text class="t3" x="532" y="281.7" font-size="11" text-anchor="end">20%</text>
+<line class="grid" x1="540" x2="960" y1="203.4" y2="203.4"/>
+<text class="t3" x="532" y="207.4" font-size="11" text-anchor="end">40%</text>
+<line class="grid" x1="540" x2="960" y1="129.1" y2="129.1"/>
+<text class="t3" x="532" y="133.1" font-size="11" text-anchor="end">60%</text>
+<text class="t3" x="540.0" y="370" font-size="11" text-anchor="middle">Jun</text>
+<text class="t3" x="643.3" y="370" font-size="11" text-anchor="middle">Jul</text>
+<text class="t3" x="750.0" y="370" font-size="11" text-anchor="middle">Aug</text>
+<text class="t3" x="856.7" y="370" font-size="11" text-anchor="middle">Sep</text>
+<text class="t3" x="960.0" y="370" font-size="11" text-anchor="middle">Oct</text>
+<polyline class="o" fill="none" stroke-width="2" stroke-dasharray="4 3" stroke-linejoin="round" points="670.8,268.8 863.6,112.1"/>
+<rect class="of ring" x="665.8" y="263.8" width="10" height="10" stroke-width="2"/>
+<text x="670.8" y="292.8" font-size="11" text-anchor="middle"><tspan class="t2">GPT-5.6 Sol </tspan><tspan class="t1" font-weight="600">22.4%</tspan></text>
+<rect class="of ring" x="858.6" y="107.1" width="10" height="10" stroke-width="2"/>
+<text x="857.6" y="98.1" font-size="11" text-anchor="end"><tspan class="t2">GPT-6 Astra </tspan><tspan class="t1" font-weight="600">64.6%</tspan></text>
+<polyline class="c" fill="none" stroke-width="2" stroke-linejoin="round" points="567.5,260.3 722.5,244.3 856.7,156.6 929.0,134.0"/>
+<circle class="cf ring" cx="567.5" cy="260.3" r="5" stroke-width="2"/>
+<text x="567.5" y="246.3" font-size="11" text-anchor="middle"><tspan class="t2">Fable 5 </tspan><tspan class="t1" font-weight="600">24.7%</tspan></text>
+<circle class="cf ring" cx="722.5" cy="244.3" r="5" stroke-width="2"/>
+<text x="730.5" y="264.3" font-size="11" text-anchor="start"><tspan class="t2">Opus 5 </tspan><tspan class="t1" font-weight="600">29.0%</tspan></text>
+<circle class="cf ring" cx="856.7" cy="156.6" r="5" stroke-width="2"/>
+<text x="864.7" y="176.6" font-size="11" text-anchor="start"><tspan class="t2">Fable 5.1 </tspan><tspan class="t1" font-weight="600">52.6%</tspan></text>
+<circle class="cf ring" cx="929.0" cy="134.0" r="5" stroke-width="2"/>
+<text x="938.0" y="138.0" font-size="11" text-anchor="start"><tspan class="t2">Opus 5.5 </tspan><tspan class="t1" font-weight="600">58.7%</tspan></text>
+<text class="t3" x="24" y="422" font-size="11">Source: Anthropic Fable 5.1 (Sep 1) and Opus 5.5 (Sep 22) announcements; OpenAI scores as reported by OpenAI. Standard error ±1.6–2.6 pts (TB 4.0), ±3.5–5 pts (TB-Science).</text>
+</svg>
