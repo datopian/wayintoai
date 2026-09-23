@@ -180,6 +180,8 @@ Add [topic] reference and YYYY-MM-DD log
 - [Any notable features/context]
 ```
 
+**Beads sync:** `git push` also pushes the Beads Dolt data (`refs/dolt/data`) via `.beads/hooks/pre-push`. If the hook reports a failure, run `bd dolt push` by hand.
+
 **Push — auto-push on commit (no wait):**
 ```bash
 cd ~/src/datopian/wayintoai
