@@ -1,6 +1,6 @@
 ---
 title: Way Into AI
-description: Practical ways to use AI—and clear-eyed notes on what it is changing.
+description: What mattered in AI this week, and what to do about it. A free, opinionated weekly selection.
 syntaxMode: md
 layout: plain
 showToc: false
@@ -9,50 +9,52 @@ showSidebar: false
 showEditLink: false
 ---
 
-<div class="way-home">
-<main class="way-home__sheet">
-<section class="way-home__intro">
-<h1>Find your way into AI.</h1>
-<p class="way-home__lede">The practical question and the bigger question belong together: how can I use this—and what, exactly, is it changing?</p>
-</section>
-<section class="way-home__routes" aria-label="Choose your way in">
-<a class="way-home__route way-home__route--use" href="/use">
-<span class="way-home__route-image-frame"><img class="way-home__route-image way-home__route-image--use" src="/assets/way-into-ai-two-routes.png" alt="A field-report illustration of a practical desk with a notebook, pencil, and working tools."></span>
-<span class="way-home__route-copy">
-<strong>Use AI.</strong>
-<span>Practical guides, workflows, tools, and field notes for putting AI to work in the things you actually do.</span>
-<span class="way-home__action">Start using AI <b aria-hidden="true">→</b></span>
-</span>
-</a>
-<a class="way-home__route way-home__route--understand" href="/understand">
-<span class="way-home__route-image-frame"><img class="way-home__route-image way-home__route-image--understand" src="/assets/way-into-ai-two-routes.png" alt="A field-report illustration of a person looking across a civic landscape shaped by technology."></span>
-<span class="way-home__route-copy">
-<strong>Understand AI.</strong>
-<span>Clear-eyed notes on capability, policy, work, power, safety, and the consequences worth paying attention to.</span>
-<span class="way-home__action">Start understanding AI <b aria-hidden="true">→</b></span>
-</span>
-</a>
-</section>
-<section class="way-home__notebook">
-<div>
-<h2>Things worth keeping a record of.</h2>
-<p>Longer arguments, practical experiments, and developments worth paying attention to.</p>
+<div class="wai">
+<main class="wai__sheet">
+<section class="wai__hero" id="subscribe">
+<div class="wai__pitch">
+<p class="wai__label">Way Into AI Weekly · free</p>
+<h1>What mattered in AI this week, and <em>what to do about it</em>.</h1>
+<p class="wai__lede">Every week we pick the few developments that matter, explain why, and give you one thing worth trying. For people who use AI at work and care where it is going.</p>
+<form class="wai__form" action="https://ailearnedtoday.substack.com/subscribe" method="get" target="_blank">
+<label class="wai__sr" for="wai-email">Email address</label>
+<input id="wai-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+<button type="submit">Subscribe</button>
+</form>
+<p class="wai__small">Once a week. Free. Unsubscribe any time.</p>
 </div>
-<div class="way-home__post-list">
-<a href="/posts/2026-09-18-typesafe-jev-system-one">Jev makes the case for AI inside ordinary software</a>
-<a href="/posts/2026-08-26-run-multiple-threads-in-claude">How do I run multiple threads in Claude at the same time?</a>
-<a href="/posts/2026-08-20-is-claude-getting-worse-vs-codex">Is Claude getting worse (at least compared to Codex)?</a>
-<a href="/posts/2026-08-15-track-claude-code-codex-usage">How I track Claude Code and Codex usage in real time</a>
+<div class="wai__issue">
+<p class="wai__label">In each issue</p>
+<ul>
+<li><strong>What mattered</strong><span>Three to five developments, with our take on why they matter.</span></li>
+<li><strong>One thing to try</strong><span>A tool, workflow or prompt we actually use.</span></li>
+<li><strong>The bigger picture</strong><span>Work, power, policy and safety: what AI is changing.</span></li>
+<li><strong>From the log</strong><span>Smaller finds from the week, one line each.</span></li>
+</ul>
 </div>
-<a class="way-home__browse" href="/posts">Browse all posts <b aria-hidden="true">→</b></a>
 </section>
-<section class="way-home__footer">
-<div>
-<h2>Keep a hand on the thread.</h2>
-<p>New field notes and practical guides, sent when there is something worth sharing.</p>
-<a class="way-home__browse" href="/logs">Browse the live log <b aria-hidden="true">→</b></a>
+<section class="wai__section">
+<h2>Recently selected</h2>
+<div class="wai__list">
+<a href="/posts/2026-09-18-typesafe-jev-system-one"><span class="wai__date">18 Sep 2026</span><span class="wai__title">Jev makes the case for AI inside ordinary software</span><span class="wai__kind">understand</span></a>
+<a href="/posts/2026-09-10-the-pace-is-the-story"><span class="wai__date">10 Sep 2026</span><span class="wai__title">This is definitely getting towards superintelligence</span><span class="wai__kind">understand</span></a>
+<a href="/posts/2026-08-26-run-multiple-threads-in-claude"><span class="wai__date">26 Aug 2026</span><span class="wai__title">How do I run multiple threads in Claude at the same time?</span><span class="wai__kind">use</span></a>
+<a href="/posts/2026-08-20-is-claude-getting-worse-vs-codex"><span class="wai__date">20 Aug 2026</span><span class="wai__title">Is Claude getting worse (at least compared to Codex)?</span><span class="wai__kind">use</span></a>
+<a href="/posts/2026-08-15-track-claude-code-codex-usage"><span class="wai__date">15 Aug 2026</span><span class="wai__title">How I track Claude Code and Codex usage in real time</span><span class="wai__kind">use</span></a>
 </div>
-<a class="way-home__subscribe" href="https://ailearnedtoday.substack.com/subscribe">Subscribe on Substack <b aria-hidden="true">→</b></a>
+<p class="wai__more"><a href="/posts">All posts</a> <a href="/logs">The daily log</a></p>
+</section>
+<section class="wai__section wai__ways">
+<h2>Two ways in</h2>
+<div class="wai__ways-grid">
+<a href="/use"><strong>Use AI</strong><span>Guides, workflows and tools for putting AI to work in the things you actually do.</span></a>
+<a href="/understand"><strong>Understand AI</strong><span>Capability, policy, work, power and safety: the consequences worth paying attention to.</span></a>
+</div>
+</section>
+<section class="wai__section wai__why">
+<h2>Why this exists</h2>
+<p>You can't make sense of AI without using it, and you can't use it well without making sense of it. This site is our open notebook on both. The weekly email is the edit.</p>
+<p><a class="wai__cta" href="#subscribe">Get the weekly email</a></p>
 </section>
 </main>
 </div>

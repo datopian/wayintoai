@@ -16,11 +16,11 @@ Way Into AI helps people get oriented and act well in a fast-moving field. It of
 
 ## Positioning
 
-Rather than making visitors choose between a tools-and-tips site and a policy/intellectual analysis site, Way Into AI gives both needs a legible, equal entrance and keeps the resulting work in one living record.
+Using AI and making sense of AI are one practice. Way Into AI is an open notebook on both, and its primary offer is a free, opinionated weekly email: what mattered in AI this week, and what to do about it. See `docs/brand/way-into-ai.md`.
 
 ## Operating Context
 
-Visitors enter through **Use AI** for guides, workflows, tools, and agentic coding, or **Understand AI** for capability, governance, work, power, safety, and consequences. Posts and logs are the chronological archive; the two routes are the orientation layer.
+The email signup is the primary call to action. Below it, visitors enter through **Use AI** for guides, workflows, tools, and agentic coding, or **Understand AI** for capability, governance, work, power, safety, and consequences. Posts and logs are the chronological archive; the two routes are the orientation layer.
 
 ## Capabilities and Constraints
 
@@ -28,7 +28,7 @@ The existing site is Flowershow content authored in Markdown, with standard HTML
 
 ## Brand Commitments
 
-The name is Way Into AI. Its voice is direct, useful, and unpretentious: concrete examples and honest uncertainty over hype, jargon, or false certainty. The navigation retains the existing compact AI tile for now. The two entry routes are named **Use AI** and **Understand AI**.
+The name is Way Into AI. Its voice is direct, useful, and unpretentious: concrete examples and honest uncertainty over hype, jargon, or false certainty. The navigation retains the existing compact AI tile for now; the old "AI Learned Today" name is retired. The two entry routes are named **Use AI** and **Understand AI**.
 
 ## Evidence on Hand
 

@@ -1,7 +1,9 @@
 # Design: Way Into AI
 
-The homepage is a field dispatch: practical, direct, and editorial rather than glossy or futuristic. Its job is to make one connected offer legible at a glance: use AI well, and understand the changes it brings.
+Brief and mood board: https://claude.ai/artifact/DLpmX593GvBX214vHLxCb9 (bead wayintoai-bnd).
 
-The visual system uses warm paper (`#f8f1e2`), bottle-green ink (`#173d33`), pale field green, and a clay-red signal. The existing AI tile is retained in navigation for now. The two doors are differentiated by direct language, two field-colour surfaces, and distinct left/right crops of one field-report illustration—not a page-scale hero.
+The homepage is email-first. Its job is to sell one thing: the free weekly email, "what mattered in AI this week, and what to do about it". The first screen holds the promise, the signup form and what each issue contains; recent selected posts and the two routes (**Use AI**, **Understand AI**) sit below as ways into the archive.
 
-`index.md` uses Flowershow Markdown mode with standard HTML only, while `custom.css` owns the layout and responsive behaviour. The homepage has a generous 1280px desktop measure—no inset card, shadowed mockup, or page-scale hero art. Keep future additions semantic, source-grounded, and calm; avoid invented proof points, generic AI imagery, and competing calls to action.
+Visual direction "blue pencil": built on top of the Flowershow Monospace theme. IBM Plex Mono carries structure (navigation, labels, lists, literal `##` heading markers); Newsreader serif carries the voice (headlines, titles, prose). Near-monochrome paper (`#fbfbf9`) and ink (`#1b1b1d`), hairline rules, no cards or shadows. One accent, editor's blue (`#2140c4`), marks selection: `[x]` ticks, heading markers, links, the emphasised half of the headline.
+
+`index.md` uses Flowershow Markdown mode with standard HTML only; `custom.css` owns layout under the `.wai` scope. The signup form posts to the Substack subscribe page until the list moves (wayintoai-b7z). Carrying the same tokens to posts, refs and logs is the next slice (wayintoai-cmw). Avoid invented proof points, generic AI imagery and competing calls to action.
