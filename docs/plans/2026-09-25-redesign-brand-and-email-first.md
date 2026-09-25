@@ -1,6 +1,6 @@
 # Redesign: brand narrative and email-first site (2026-09-25)
 
-Epic: wayintoai-bnd. Brief, mood board and directions: https://claude.ai/artifact/DLpmX593GvBX214vHLxCb9. Canonical brand: `docs/brand/way-into-ai.md`.
+Epic: wayintoai-bnd. Brief, mood board and directions: https://claude.ai/artifact/DLpmX593GvBX214vHLxCb9. Canonical brand: `docs/brand.md`.
 
 ## Why
 

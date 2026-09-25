@@ -16,7 +16,7 @@ Way Into AI helps people get oriented and act well in a fast-moving field. It of
 
 ## Positioning
 
-Using AI and making sense of AI are one practice. Way Into AI is an open notebook on both, and its primary offer is a free, opinionated weekly email: what mattered in AI this week, and what to do about it. See `docs/brand/way-into-ai.md`.
+Using AI and making sense of AI are one practice. Way Into AI is an open notebook on both, and its primary offer is a free, opinionated weekly email: what mattered in AI this week, and what to do about it. See `docs/brand.md`.
 
 ## Operating Context
 

@@ -13,7 +13,7 @@
 ### Task 1: Record the usable brand direction
 
 **Files:**
-- Create: `docs/brand/way-into-ai.md`
+- Create: `docs/brand.md`
 
 **Step 1: Write the brand note**
 
@@ -21,7 +21,7 @@ State the site promise, intended general audience, direct and practical voice, a
 
 **Step 2: Verify the note has all decision anchors**
 
-Run: `rg -n "Offer|Audience|Voice|Use AI|Understand AI" docs/brand/way-into-ai.md`
+Run: `rg -n "Offer|Audience|Voice|Use AI|Understand AI" docs/brand.md`
 
 Expected: one match for every named anchor.
 
@@ -85,6 +85,6 @@ Expected: no output and exit status 0.
 
 **Step 3: Review the final content diff**
 
-Run: `git diff -- index.md config.json use/index.md understand/index.md docs/brand/way-into-ai.md`
+Run: `git diff -- index.md config.json use/index.md understand/index.md docs/brand.md`
 
 Expected: a focused IA-only diff with no visual-platform redesign.

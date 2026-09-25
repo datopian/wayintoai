@@ -49,5 +49,6 @@
     "/plans",
     "/post-pipeline",
     "/sandbox"
-  ]
+  ],
+  "favicon": "/assets/favicon.png"
 }
