@@ -11,7 +11,7 @@ The site had three competing identities: a tutorial (how to use AI), an on-ramp 
 ## Promise and offer
 
 - **Promise:** What mattered in AI this week, and what to do about it.
-- **Offer:** a free weekly email, our opinionated selection. The email signup is the primary call to action everywhere.
+- **Offer:** a free weekly email, sent on Tuesdays, our opinionated selection. The email signup is the primary call to action everywhere.
 - **Each issue:** three to five developments with our take on why they matter; one thing to try (a tool or workflow we actually use); the bigger picture (work, power, policy, safety); smaller finds from the log, one line each. Everything links back to the site.
 
 ## Audience
