@@ -38,6 +38,7 @@ Built on top of the Flowershow Monospace theme. Selection is the product, so the
 
 - **Type:** IBM Plex Mono for structure (navigation, labels, lists, literal `#`/`##` heading markers); Newsreader serif for voice (headlines, titles, prose).
 - **Colour:** paper `#fbfbf9`, ink `#1b1b1d`, muted `#5f5f66`, rule `#e2e2de`, one accent, editor's blue `#2140c4` (wash `#e8ecfd`). Dark: paper `#0e0e10`, ink `#e9e9e6`, blue `#93a6ff`.
+- **Logo:** the text `A→]` in IBM Plex Mono semibold, white on editor's blue. The arrow is "a way into"; the bracket closes on AI. Files: `assets/logo.png` (512px), `assets/logo-160.png` (nav), `assets/favicon.png`.
 - **Form:** hairline rules, no cards, no shadows, no rounded corners, no generic AI imagery.
 
 Implementation notes live in `DESIGN.md`.

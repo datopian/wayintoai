@@ -28,11 +28,11 @@ The existing site is Flowershow content authored in Markdown, with standard HTML
 
 ## Brand Commitments
 
-The name is Way Into AI. Its voice is direct, useful, and unpretentious: concrete examples and honest uncertainty over hype, jargon, or false certainty. The navigation retains the existing compact AI tile for now; the old "AI Learned Today" name is retired. The two entry routes are named **Use AI** and **Understand AI**.
+The name is Way Into AI. Its voice is direct, useful, and unpretentious: concrete examples and honest uncertainty over hype, jargon, or false certainty. The logo is `A→]` in IBM Plex Mono on editor's blue; the old "AI Learned Today" name is retired. The two entry routes are named **Use AI** and **Understand AI**.
 
 ## Evidence on Hand
 
-The repository contains practical guide and workflow material under `ref/` and `posts/`, contextual/policy material under the same editorial system, a two-tone logo at `assets/ailearnedtoday-logo.webp`, and several existing editorial images. No customer proof, quantitative performance claims, or dedicated photographic brand library has been supplied.
+The repository contains practical guide and workflow material under `ref/` and `posts/`, contextual/policy material under the same editorial system, the `A→]` logo at `assets/logo.png` (favicon `assets/favicon.png`), and several existing editorial images. No customer proof, quantitative performance claims, or dedicated photographic brand library has been supplied.
 
 ## Product Principles
 
