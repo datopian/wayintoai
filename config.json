@@ -1,7 +1,6 @@
 {
   "image": "https://screenshotit.app/wayintoai.com@social",
-  "theme": "lessflowery",
-  "showSidebar": true,
+  "showSidebar": false,
   "showEditLink": true,
   "umami": "b20100a9-c06b-423f-b091-3e09eb976094",
   "nav": {
@@ -43,5 +42,12 @@
         "href": "https://ailearnedtoday.substack.com"
       }
     ]
-  }
+  },
+  "contentHide": [
+    "/backlog",
+    "/docs",
+    "/plans",
+    "/post-pipeline",
+    "/sandbox"
+  ]
 }

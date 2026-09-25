@@ -1,6 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap');
 
-/* Email-first homepage. "Blue pencil" direction: Monospace-theme structure
+/* ==========================================================================
+   Site-wide "blue pencil" system (see docs/brand/way-into-ai.md).
+   Mono for structure (nav, labels, meta, headings), serif for voice (titles,
+   prose), one editor's-blue accent. Hairlines, no cards, no radius.
+   ========================================================================== */
+
+:root {
+  --wai-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --wai-serif: "Newsreader", "Iowan Old Style", Charter, Georgia, serif;
+  --color-l-background: #fbfbf9;
+  --color-l-foreground: #1b1b1d;
+  --color-l-accent: #2140c4;
+  --color-d-background: #0e0e10;
+  --color-d-foreground: #e9e9e6;
+  --color-d-accent: #93a6ff;
+  --font-heading: var(--wai-serif);
+  --font-body: var(--wai-serif);
+  --radius: 0;
+  --color-code-bg: #f2f2ee;
+  --color-code-bg-dark: #17171a;
+  --site-rule: color-mix(in srgb, var(--color-foreground) 13%, transparent);
+  --site-muted: color-mix(in srgb, var(--color-foreground) 64%, transparent);
+}
+
+body { background: var(--color-background); }
+::selection { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+
+/* Navbar and footer: mono chrome */
+.site-navbar { background: var(--color-background); border-bottom: 1px solid var(--site-rule); box-shadow: none; }
+.site-navbar-site-title { font-family: var(--wai-mono); font-size: 0.9rem; font-weight: 600; letter-spacing: 0; text-transform: none; }
+.site-navbar-link, .mobile-nav-link { font-family: var(--wai-mono); font-size: 0.82rem; letter-spacing: 0; text-transform: none; }
+.site-navbar-link:hover, .mobile-nav-link:hover { color: var(--color-accent); }
+.site-navbar-link[href="/#subscribe"], .mobile-nav-link[href="/#subscribe"] { color: var(--color-accent); }
+.site-footer { border-top: 1px solid var(--site-rule); font-family: var(--wai-mono); font-size: 0.8rem; }
+.site-subnav { font-family: var(--wai-mono); font-size: 0.8rem; }
+
+/* Page header */
+.page-header-title { font-family: var(--wai-serif); font-weight: 400; letter-spacing: -0.01em; text-wrap: balance; }
+.page-header-description { color: var(--site-muted); font-family: var(--wai-serif); font-style: normal; }
+.page-header-date, .page-header-metadata-container, .page-header-author-name { font-family: var(--wai-mono); font-size: 0.8rem; letter-spacing: 0; text-transform: none; }
+.page-header-tags a, .tag-pill { background: none; border: 0; border-radius: 0; color: var(--color-accent); font-family: var(--wai-mono); font-size: 0.78rem; padding: 0; }
+
+/* Prose (not the plain-layout homepage) */
+.rendered-mdx:not(.is-plain) { font-family: var(--wai-serif); }
+.rendered-mdx:not(.is-plain) :where(p, li) { font-size: 1.125rem; line-height: 1.6; }
+.rendered-mdx:not(.is-plain) :where(h2, h3, h4) { font-family: var(--wai-mono); font-weight: 600; letter-spacing: 0; line-height: 1.35; text-transform: none; }
+.rendered-mdx:not(.is-plain) h2 { font-size: 1.05rem; margin-top: 2.5em; }
+.rendered-mdx:not(.is-plain) h3 { font-size: 0.95rem; }
+.rendered-mdx:not(.is-plain) h4 { font-size: 0.9rem; }
+.rendered-mdx:not(.is-plain) h2::before { color: var(--color-accent); content: "## "; }
+.rendered-mdx:not(.is-plain) h3::before { color: var(--color-accent); content: "### "; }
+.rendered-mdx:not(.is-plain) h1 { font-family: var(--wai-serif); font-weight: 400; }
+.rendered-mdx:not(.is-plain) a { color: var(--color-accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+.rendered-mdx:not(.is-plain) a:hover { text-decoration-thickness: 2px; }
+.rendered-mdx:not(.is-plain) blockquote { border-left: 2px solid var(--color-accent); color: inherit; font-style: italic; }
+.rendered-mdx:not(.is-plain) hr { border-color: var(--site-rule); }
+.rendered-mdx:not(.is-plain) :where(code, pre, kbd) { font-family: var(--wai-mono); }
+.rendered-mdx:not(.is-plain) :where(table) { font-family: var(--wai-mono); font-size: 0.85rem; }
+.rendered-mdx:not(.is-plain) :where(th) { border-bottom: 1px solid var(--color-foreground); }
+.rendered-mdx:not(.is-plain) :where(td) { border-bottom: 1px solid var(--site-rule); }
+.rendered-mdx:not(.is-plain) img { border: 1px solid var(--site-rule); }
+
+/* Table of contents */
+.toc-title { color: var(--site-muted); font-family: var(--wai-mono); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; }
+.toc-item-self { font-family: var(--wai-mono); font-size: 0.78rem; }
+
+/* Post and log listings: a hairline list, not cards */
+.list-component { gap: 0; }
+.list-component-item { background: none; border: 0; border-radius: 0; border-top: 1px solid var(--site-rule); box-shadow: none; margin: 0; padding: 1.1rem 0; }
+.list-component-item:hover { background: none; }
+.list-component-item-headline { font-family: var(--wai-serif); font-weight: 400; letter-spacing: -0.005em; }
+.list-component-item:hover .list-component-item-headline { color: var(--color-accent); }
+.list-component-item-eyebrow, .list-component-item-footnote { color: var(--site-muted); font-family: var(--wai-mono); font-size: 0.78rem; letter-spacing: 0; text-transform: none; }
+.list-component-item-summary { color: var(--site-muted); font-family: var(--wai-serif); }
+.list-component-pagination { font-family: var(--wai-mono); font-size: 0.8rem; }
+
+/* Listing headlines live inside .rendered-mdx: undo the prose heading/link treatment */
+.rendered-mdx .list-component a { color: inherit; text-decoration: none; }
+.rendered-mdx .list-component-item-headline { color: var(--color-foreground); font-family: var(--wai-serif); font-size: 1.3rem; font-weight: 400; letter-spacing: -0.005em; line-height: 1.3; margin: 0; }
+.rendered-mdx:not(.is-plain) .list-component :where(h2, h3, h4) { font-family: var(--wai-serif); font-size: 1.3rem; font-weight: 400; letter-spacing: -0.005em; line-height: 1.3; margin: 0; }
+.rendered-mdx:not(.is-plain) .list-component :where(h2, h3, h4)::before, .rendered-mdx .list-component-item-headline::before { content: none; }
+.rendered-mdx .list-component-item:hover :where(h2, h3, h4) { color: var(--color-accent); }
+
+/* Readable measure on every non-homepage page, with or without a TOC */
+.page-main:not(:has(.is-plain)) .page-header,
+.page-main:not(:has(.is-plain)) .rendered-mdx { margin-inline: auto; max-width: 44rem; }
+.page-header-title { font-size: clamp(2.1rem, 4.4vw, 3.2rem); line-height: 1.1; }
+
+/* Backlinks and edit controls */
+.page-backlinks-container { border-top: 1px solid var(--site-rule); font-family: var(--wai-mono); font-size: 0.85rem; }
+.page-backlinks-title { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* ==========================================================================
+   Email-first homepage. "Blue pencil" direction: Monospace-theme structure
    (IBM Plex Mono, # markers, hairlines, no cards), Newsreader serif voice,
    one editor's-blue accent for selection marks. */
 
