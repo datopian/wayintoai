@@ -14,6 +14,7 @@ Cursor plugin of engineering workflows, principles and playbooks: less code, hig
 
 - **GitHub**: https://github.com/cursor/plugins/tree/main/pstack
 - **Review**: [[pstack-review-flavio-copes]] (https://flaviocopes.com/pstack/)
+- **Author post**: [How I shipped 2,500 PRs last month to production](https://x.com/poteto/status/2102050467505430555) (Lauren Tan)
 - **Claude Code port (unofficial)**: https://github.com/michael-denyer/pstack-claude
 - **Install (Cursor)**: `/add-plugin pstack`, then `/setup-pstack`
 - **License**: MIT
