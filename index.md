@@ -16,12 +16,13 @@ showEditLink: false
 <p class="wai__label">Way Into AI Weekly · free</p>
 <h1>What mattered in AI this week, and <em>what to do about it</em>.</h1>
 <p class="wai__lede">Every week we pick the few developments that matter, explain why, and give you one thing worth trying. For people who use AI at work and care where it is going.</p>
-<form class="wai__form" action="https://ailearnedtoday.substack.com/subscribe" method="get" target="_blank">
+<form class="wai__form" action="https://mailer.lifeitself.org/newsletter/v1" method="post">
 <label class="wai__sr" for="wai-email">Email address</label>
 <input id="wai-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+<input type="hidden" name="target" value="way-into-ai">
 <button type="submit">Subscribe</button>
 </form>
-<p class="wai__small">Once a week. Free. Unsubscribe any time.</p>
+<p class="wai__small">Send me the Way Into AI newsletter. Once a week. Free. Unsubscribe any time. <a href="https://lifeitself.org/privacy-policy">Privacy policy</a></p>
 </div>
 <div class="wai__issue">
 <p class="wai__label">In each issue</p>
