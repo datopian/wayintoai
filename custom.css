@@ -137,9 +137,7 @@ body { background: var(--color-background); }
 .wai ::selection { background: var(--wai-wash); color: var(--wai-ink); }
 .wai a { color: inherit; }
 .wai a:focus-visible, .wai input:focus-visible, .wai button:focus-visible { outline: 2px solid var(--wai-pencil); outline-offset: 3px; }
-.wai__sheet { margin: 0 auto; max-width: 80rem; padding: 0 2rem clamp(3rem, 6vw, 5rem); }
-@media (min-width: 640px) { .wai__sheet { padding-inline: 2.5rem; } }
-@media (min-width: 1024px) { .wai__sheet { padding-inline: 3rem; } }
+.wai__sheet { margin: 0 auto; max-width: 1120px; padding: 0 clamp(1rem, 5vw, 4rem) clamp(3rem, 6vw, 5rem); }
 .wai__sr { height: 1px; left: -9999px; overflow: hidden; position: absolute; width: 1px; }
 .wai__label { color: var(--wai-muted); font-size: 0.78rem; letter-spacing: 0.08em; margin: 0; text-transform: uppercase; }
 
