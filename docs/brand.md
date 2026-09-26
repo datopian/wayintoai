@@ -12,7 +12,8 @@ The site had three competing identities: a tutorial (how to use AI), an on-ramp 
 
 - **Promise:** What mattered in AI this week, and what to do about it.
 - **Offer:** a free weekly email, sent on Tuesdays, our opinionated selection. The email signup is the primary call to action everywhere.
-- **Each issue:** three to five developments with our take on why they matter; one thing to try (a tool or workflow we actually use); the bigger picture (work, power, policy, safety); smaller finds from the log, one line each. Everything links back to the site.
+- **Each issue:** three to five developments with our take on why they matter; one thing to try (a tool, workflow, guide or reference for people using AI); the bigger picture (work, power, policy, safety); smaller finds from the log, one line each. Everything links back to the site.
+- **Issue format:** sender `Way Into AI`, subject is the lead item's hook, preheader starts `Week N.` (ISO week of the Tuesday send date), site title `What mattered · week N`; one markdown file per issue in `weekly/` serves as both the site page and the email body. Drafted by the `weekly-roundup` skill (`.agents/skills/weekly-roundup/SKILL.md`).
 
 ## Audience
 
