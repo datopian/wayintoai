@@ -27,6 +27,13 @@
 body { background: var(--color-background); }
 ::selection { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
 
+/* One frame for site chrome: navbar and footer content share the page's
+   80rem/3rem layout box, so logo, footer and wide content line up. */
+.site-navbar-inner { box-sizing: border-box; max-width: 80rem; padding-inline: 2rem; }
+.site-footer-inner { max-width: 74rem; }
+@media (min-width: 640px) { .site-navbar-inner { padding-inline: 2.5rem; } }
+@media (min-width: 1024px) { .site-navbar-inner { padding-inline: 3rem; } }
+
 /* Navbar and footer: mono chrome */
 .site-navbar { background: var(--color-background); border-bottom: 1px solid var(--site-rule); box-shadow: none; }
 .site-navbar-site-title { font-family: var(--wai-mono); font-size: 0.9rem; font-weight: 600; letter-spacing: 0; text-transform: none; }
@@ -85,7 +92,8 @@ body { background: var(--color-background); }
 
 /* Readable measure on every non-homepage page, with or without a TOC */
 .page-main:not(:has(.is-plain)) .page-header,
-.page-main:not(:has(.is-plain)) .rendered-mdx { margin-inline: auto; max-width: 44rem; }
+.page-main:not(:has(.is-plain)) .rendered-mdx,
+.layout-inner-center:not(:has(.is-plain)) :is(.page-edit-button-container, .page-backlinks-container) { margin-inline: auto; max-width: 44rem; }
 .page-header-title { font-size: clamp(2.1rem, 4.4vw, 3.2rem); line-height: 1.1; }
 
 /* Backlinks and edit controls */
@@ -129,7 +137,9 @@ body { background: var(--color-background); }
 .wai ::selection { background: var(--wai-wash); color: var(--wai-ink); }
 .wai a { color: inherit; }
 .wai a:focus-visible, .wai input:focus-visible, .wai button:focus-visible { outline: 2px solid var(--wai-pencil); outline-offset: 3px; }
-.wai__sheet { margin: 0 auto; max-width: 1120px; padding: 0 clamp(1rem, 5vw, 4rem) clamp(3rem, 6vw, 5rem); }
+.wai__sheet { margin: 0 auto; max-width: 80rem; padding: 0 2rem clamp(3rem, 6vw, 5rem); }
+@media (min-width: 640px) { .wai__sheet { padding-inline: 2.5rem; } }
+@media (min-width: 1024px) { .wai__sheet { padding-inline: 3rem; } }
 .wai__sr { height: 1px; left: -9999px; overflow: hidden; position: absolute; width: 1px; }
 .wai__label { color: var(--wai-muted); font-size: 0.78rem; letter-spacing: 0.08em; margin: 0; text-transform: uppercase; }
 
