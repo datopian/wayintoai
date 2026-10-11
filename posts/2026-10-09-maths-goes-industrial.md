@@ -1,5 +1,5 @@
 ---
-title: "Mathapocalypse: OpenAI releases Fields Medal-level maths in bulk"
+title: "OpenAI releases Fields Medal-level maths in bulk"
 description: In one drop, OpenAI has released hundreds of new maths results from a single unreleased model, claimed solutions to long-standing open problems, including one a leading mathematician called "an instant Fields Medal". Most are not yet verified, but maths is being industrialised, and it's making mathematicians dizzy.
 date: 2026-10-09
 featured: true
