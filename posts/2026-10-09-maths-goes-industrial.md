@@ -1,6 +1,6 @@
 ---
-title: "OpenAI releases hundreds of new maths results at once, many of them major"
-description: OpenAI just released 719 AI-written maths papers at once, claiming proofs of long-standing open problems, including one a leading mathematician called "an instant Fields Medal". Maths is being industrialised, and it's making mathematicians dizzy.
+title: "Mathapocalypse: OpenAI releases Fields Medal-level maths in bulk"
+description: In one drop, OpenAI has released hundreds of new maths results from a single unreleased model, claimed solutions to long-standing open problems, including one a leading mathematician called "an instant Fields Medal". Most are not yet verified, but maths is being industrialised, and it's making mathematicians dizzy.
 date: 2026-10-09
 featured: true
 newsletter: standalone
