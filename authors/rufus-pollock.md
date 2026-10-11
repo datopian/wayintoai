@@ -8,7 +8,7 @@ avatar: https://1.gravatar.com/avatar/2d70024020ef9b355f33cf3cdaa7bd374a1e589fd5
 
 I’m Rufus Pollock, the creator of Way Into AI. I write about using AI in practice and understanding what it is changing, drawing on my own experiments with coding agents and other tools.
 
-I’m also a co-founder of Life Itself and the founder of the Open Knowledge Foundation.
+I’m also the founder of Datopian, a co-founder of Life Itself, and the founder of the Open Knowledge Foundation. [How Way Into AI started](/about).
 
 - [Personal website](https://rufuspollock.com/)
 - [GitHub](https://github.com/rufuspollock)

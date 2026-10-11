@@ -78,11 +78,11 @@ try: ref/some-tool.md       # the "One thing to try" item (also listed in items)
    - `newsletter: standalone` → include it in the weekly. A dedicated send is a separate decision the reviewer makes; don't ask about it in the draft.
    - `STALE` flagged items → ask, don't include by default.
    - **What mattered:** 3 developments (4 at most). Fewer, shorter items beat a full list. Thin week (fewer than 3 worth it): run 2 and say so in the opener, or add one archive item clearly labelled as such. Never pad.
-   - **One thing to try:** one practical thing for people **using** AI: a tool, skill, workflow, prompt, or a useful guide or reference. Not policy or news. The homepage promises one every issue. Prefer this week's items; if none fits, draw from the archive: `/use` posts, refs with a "User Experience Note", `ref/moc-best-ai-skills.md`, guides and references. Don't repeat a past pick. Prefer something a generalist can start in ten minutes. Don't claim we use it unless the repo says so.
+   - **One thing to try:** one practical thing for people **using** AI: a tool, skill, workflow, prompt, or a useful guide or reference. Not policy or news. The homepage promises one every issue. Prefer this week's items; if none fits, draw from the archive: `/use` posts, refs with a "User Experience Note", `ref/moc-best-ai-skills.md`, guides and references. Don't repeat a past pick. Prefer something a generalist can start in ten minutes. Don't claim I use it unless the repo says so.
    - **The bigger picture:** one item or theme on work, power, policy or safety, in one or two sentences (about 50 words).
-   - **From the log:** up to 3 other worthwhile items, one line each. Leave out bookmarks we haven't tried and anything that is only "interesting". No firehose.
+   - **From the log:** up to 3 other worthwhile items, one line each. Leave out bookmarks I haven't tried and anything that is only "interesting". No firehose.
 
-4. **Draft** in house voice (`docs/brand.md`): first person plural, specific. This is a **roundup, not new editorial**: report what the sources say, and use only takes already recorded in our posts and refs. Don't add new inferences, predictions or opinions; when in doubt, cut the sentence. Say "we think", "we don't know yet". Concrete numbers and examples over adjectives; no hype, doom, jargon, or digest-speak ("In this week's roundup…", "exciting", "game-changer").
+4. **Draft** in house voice (`docs/brand.md`): first person singular (Rufus), specific. This is a **roundup, not new editorial**: report what the sources say, and use only takes already recorded in our posts and refs. Don't add new inferences, predictions or opinions; when in doubt, cut the sentence. Say "I think", "I don't know yet"; no institutional "we". Concrete numbers and examples over adjectives; no hype, doom, jargon, or digest-speak ("In this week's roundup…", "exciting", "game-changer").
    - **Headlines** state the point as a plain claim. Never the "X, not Y" / "not X but Y" shape, and never the product name alone.
    - **Items:** what happened and why it matters, with our take only where a post or ref already states it. Vary the shape; five identical four-sentence paragraphs read like a digest. Keep claims no broader than the evidence (sample sizes, "vendor figures").
    - **Paragraphs and numbers** follow [docs/numbers-and-charts.md](../../../docs/numbers-and-charts.md): paragraphs of at most about 60 words, broken where the item turns; three or more comparable figures go in a small two-column Markdown table with the subject in **bold** and an italic source caption. A percentage table renders in the email as a bar chart. No images, SVG or HTML for data in the weekly.
@@ -107,7 +107,7 @@ try: ref/some-tool.md       # the "One thing to try" item (also listed in items)
 
    ## One thing to try
 
-   **<Name, for <use>.>** <What it is, how we use it.>
+   **<Name, for <use>.>** <What it is, how I use it.>
 
    <First step, exactly.> [Read more](...)
 
@@ -119,13 +119,13 @@ try: ref/some-tool.md       # the "One thing to try" item (also listed in items)
 
    - [<Title>](https://wayintoai.com/ref/...): <one line>
 
-   <Reply invite.> The rest of what we log is at [wayintoai.com/logs](https://wayintoai.com/logs).
+   <Reply invite.> The rest of what I log is at [wayintoai.com/logs](https://wayintoai.com/logs).
    ```
 
 5. **Check** before handing over:
    - `rg -n '\[\[|\]\(\.\.?/|\.md\)' weekly/<file>` returns nothing (no wiki or relative links).
    - Every `https://wayintoai.com/...` link maps to an existing `ref/` or `posts/` file, and every such file is in `items:`.
-   - Every number, quote and "we think" traces to a file in `items:`.
+   - Every number, quote and "I think" traces to a file in `items:`.
    - No paragraph over about 60 words: `awk -v RS= 'NF>60 && !/^(---|\||- )/{print NR": "NF" words"}' weekly/<file>` prints nothing (or each hit is justified). Runs of three or more comparable figures are a table.
    - Body is 300–450 words: `awk '/^---$/{c++;next} c>=2' weekly/<file> | wc -w`. Each What mattered item is a single paragraph.
    - Every image URL is under `https://wayintoai.com/assets/`, the file exists in `assets/`, and it has alt text.

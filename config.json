@@ -33,6 +33,10 @@
         "href": "https://bitterlesson.org/"
       },
       {
+        "name": "About",
+        "href": "/about"
+      },
+      {
         "name": "Subscribe",
         "href": "/#subscribe"
       }

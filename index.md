@@ -15,7 +15,7 @@ showEditLink: false
 <div class="wai__pitch">
 <p class="wai__label">Way Into AI Weekly · free</p>
 <h1>What mattered in AI this week, and <em>what to do about it</em>.</h1>
-<p class="wai__lede">Every week we pick the few developments that matter, explain why, and give you one thing worth trying. For people who use AI at work and care where it is going.</p>
+<p class="wai__lede">Every week I pick the few developments that matter, explain why, and give you one thing worth trying. For people who use AI at work and care where it is going.</p>
 <form class="wai__form" action="https://mailer.lifeitself.org/newsletter/v1" method="post">
 <label class="wai__sr" for="wai-email">Email address</label>
 <input id="wai-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
@@ -24,12 +24,13 @@ showEditLink: false
 </form>
 <p class="wai__small">Send me the Way Into AI newsletter. Once a week. Free. Unsubscribe any time. <a href="https://lifeitself.org/privacy-policy">Privacy policy</a></p>
 <p class="wai__small"><a class="wai__cta" href="/weekly">Read past issues</a></p>
+<p class="wai__byline"><img src="https://1.gravatar.com/avatar/2d70024020ef9b355f33cf3cdaa7bd374a1e589fd5b91659b38b3298a43ebf82?s=96&d=404" alt="" width="40" height="40"><span>By <a href="/authors/rufus-pollock">Rufus Pollock</a>, founder of Datopian, co-founder of Life Itself, and founder of the Open Knowledge Foundation. <a href="/about">About</a></span></p>
 </div>
 <div class="wai__issue">
 <p class="wai__label">In each issue</p>
 <ul>
-<li><strong>What mattered</strong><span>Three to five developments, with our take on why they matter.</span></li>
-<li><strong>One thing to try</strong><span>A tool, workflow or prompt we actually use.</span></li>
+<li><strong>What mattered</strong><span>Three to five developments, with my take on why they matter.</span></li>
+<li><strong>One thing to try</strong><span>A tool, workflow or prompt I actually use.</span></li>
 <li><strong>The bigger picture</strong><span>Work, power, policy and safety: what AI is changing.</span></li>
 <li><strong>From the log</strong><span>Smaller finds from the week, one line each.</span></li>
 </ul>
@@ -57,7 +58,7 @@ showEditLink: false
 </section>
 <section class="wai__section wai__why">
 <h2>Why this exists</h2>
-<p>You can't make sense of AI without using it, and you can't use it well without making sense of it. This site is our open notebook on both. The weekly email is the edit.</p>
+<p>You can't make sense of AI without using it, and you can't use it well without making sense of it. I've been thinking about AI since 2016, and seriously since ChatGPT. In autumn 2025 I decided I had to get properly on top of it, so I started collecting, testing and writing things down in public. This site is that open notebook. The weekly email is the edit. <a href="/about">More about this</a></p>
 <p><a class="wai__cta" href="#subscribe">Get the weekly email</a></p>
 </section>
 </main>

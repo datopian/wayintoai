@@ -6,13 +6,13 @@ Brand, narrative and offer. Agreed 2026-09-25 (bead wayintoai-bnd). Full brief w
 
 > You can't make sense of AI without using it, and you can't use it well without making sense of it.
 
-The site had three competing identities: a tutorial (how to use AI), an on-ramp (a way into AI for non-insiders), and a sensemaking project (what AI is doing to work, power and society). They are one practice: someone who uses these tools every day, watches the frontier closely, and reports back with an opinion. The site is the open notebook; the weekly email is the edit.
+The site had three competing identities: a tutorial (how to use AI), an on-ramp (a way into AI for non-insiders), and a sensemaking project (what AI is doing to work, power and society). They are one practice: someone who uses these tools every day, watches the frontier closely, and reports back with an opinion. That someone is Rufus Pollock, named on the landing page and at `/about`: the author is the reason to subscribe. The site is the open notebook; the weekly email is the edit.
 
 ## Promise and offer
 
 - **Promise:** What mattered in AI this week, and what to do about it.
-- **Offer:** a free weekly email, sent on Tuesdays, our opinionated selection. The email signup is the primary call to action everywhere.
-- **Each issue:** three to five developments with our take on why they matter; one thing to try (a tool, workflow, guide or reference for people using AI); the bigger picture (work, power, policy, safety); smaller finds from the log, one line each. Everything links back to the site.
+- **Offer:** a free weekly email, sent on Tuesdays, Rufus's opinionated selection. The email signup is the primary call to action everywhere.
+- **Each issue:** three to five developments with my take on why they matter; one thing to try (a tool, workflow, guide or reference for people using AI); the bigger picture (work, power, policy, safety); smaller finds from the log, one line each. Everything links back to the site.
 - **Issue format:** sender `Way Into AI`, subject is the lead item's hook, preheader starts `Week N.` (ISO week of the Tuesday send date), site title `What mattered · week N`; one markdown file per issue in `weekly/` serves as both the site page and the email body. Drafted by the `weekly-roundup` skill (`.agents/skills/weekly-roundup/SKILL.md`).
 
 ## Audience
@@ -21,7 +21,7 @@ Capable generalists who use AI at work and care where it is going. Not insiders;
 
 ## Voice
 
-First person, opinionated, specific. Says "we think" and "we don't know yet". Concrete examples and honest uncertainty over hype, doom or jargon. No sponsored picks, no firehose, no AI-generated digest.
+First person singular: it is Rufus's personal take. Says "I think" and "I don't know yet", never an institutional "we". Colleagues (Life Itself, Datopian) who contribute get credited by name. Opinionated, specific. Concrete examples and honest uncertainty over hype, doom or jargon. No sponsored picks, no firehose, no AI-generated digest.
 
 ## Name
 
