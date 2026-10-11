@@ -1,5 +1,5 @@
 ---
-title: "OpenAI claims its latest model solved major open maths problems"
+title: "OpenAI releases hundreds of new maths results at once, many of them major"
 description: OpenAI just released 719 AI-written maths papers at once, claiming proofs of long-standing open problems, including one a leading mathematician called "an instant Fields Medal". Maths is being industrialised, and it's making mathematicians dizzy.
 date: 2026-10-09
 featured: true
