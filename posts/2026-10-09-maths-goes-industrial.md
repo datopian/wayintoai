@@ -41,7 +41,15 @@ This is where I think the bigger story is. The results are arriving faster than 
 
 **The field's own sense of itself is wobbling.** In September, 25 Fields Medallists [signed a declaration](/ref/tao-fields-medalists-ai-mathematics-declaration) saying the goals of AI companies and of mathematics are "severely misaligned." They worried about credit, about breaking the chain by which understanding passes from person to person, and about mass-producing true-or-false verdicts without the ideas that make them meaningful. This release is exactly the scale they were warning about. To be fair, OpenAI consulted an independent advisory group at the Institute for Advanced Study on how to publish, and it is versioning its corrections in public.
 
-The most honest reaction I've seen came from Yuanning Zhang, a PhD student at Northwestern, [in the New York Times](https://www.nytimes.com/2026/10/08/science/mathematicians-respond-openai-release.html):
+For Fields medallist Hugo Duminil-Copin, the shock was deeply personal. OpenAI's release included work on 16 questions directly relevant to his research. Speaking at a French Mathematical Society videoconference, he said (in English translation):
+
+> “On Tuesday night, I cried, and it woke up my daughter”
+>
+> “They have annihilated my field of research.”
+
+— Hugo Duminil-Copin, reported by David Larousserie in [Le Monde, 10 October 2026](https://www.lemonde.fr/sciences/article/2026/10/10/nouveau-coup-de-massue-d-openai-sur-les-mathematiciens-ils-ont-annihile-mon-domaine-de-recherche_6790951_1650684.html).
+
+Another honest reaction came from Yuanning Zhang, a PhD student at Northwestern, [in the New York Times](https://www.nytimes.com/2026/10/08/science/mathematicians-respond-openai-release.html):
 
 > What I'm feeling is less a judgment than a kind of vertigo. If these reported resolutions are verified, this would suggest that A.I.-assisted mathematical research is beginning to operate on an industrial scale.
 
