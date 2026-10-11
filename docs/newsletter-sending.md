@@ -41,17 +41,26 @@ canonical URL and stable issue key from its filename. Verify `status: approved`,
 that `publish: false` has been removed, and that the canonical URL is live
 (push first) before preparing. Keep the same key through revisions and recovery. For an
 existing issue, inspect `status` before restarting; a sent or uncertain send
-must not be treated as a new draft.
+must not be treated as a new draft. Re-running `prepare` and `draft` with the
+same key updates the same Resend draft in place. Every copy edit (subject,
+lead, tables) must be final first: approval binds to the whole file, so any
+later edit means prepare, draft and approve again. Push only with the editor's
+explicit go-ahead; never route around a blocked push.
 
 To schedule instead of sending on approval, add
-`--scheduled-at 2026-10-07T07:00:00Z` (RFC 3339, explicit offset; 07:00Z is
-09:00 in Copenhagen in summer time) to `prepare`. Approval then covers that time, and `status`
-shows `scheduled` until it goes out. Cancelling is final for the issue key, so
+`--scheduled-at 2026-10-07T07:00:00Z` (RFC 3339, explicit offset, UTC; 07:00Z is
+09:00 in Copenhagen in summer time, which runs to late October, so 11:00
+there in October is 09:00Z) to `prepare`. Approval then covers that time, and `status`
+shows `scheduled` until it goes out. Run `send` at least a minute before the
+scheduled time. Recipients are fixed when `send` runs, not when the email goes
+out. Cancelling after `send` is final for the issue key, so
 pick the time before approving. See the CRM guide for details.
 
 Review the returned private `preview.html`, neighboring `email.txt` and
-`review.json`. Check links and the public issue page, sender, subject, exact
-eligible addresses, exclusions and `scheduledAt: null`. A local preview does
+`review.json`. Check links resolve (including the public issue page), any
+table at 375px phone width, caveats survive, the body is in the word range,
+and in `review.json` the sender, subject, exact eligible addresses, exclusions
+and `scheduledAt` (`null`, or the intended time). A local preview does
 not prove inbox rendering. Do not put audience-bearing output in Git or shared
 logs.
 
@@ -74,10 +83,11 @@ approval. On timeout or unknown outcome, use `status` for the same issue and
 retain the ledger. Never create a new key or repeat a provider send to recover.
 Provider acceptance and broadcast `sent` are distinct from recipient delivery.
 
-After confirmed sending, set the weekly issue's `status: sent` and actual
+After confirmed sending (for a scheduled issue, once `status` shows it has
+actually gone out, not at `send`), set the weekly issue's `status: sent` and actual
 `sent: YYYY-MM-DD`; retain its original week/date identity for a late issue.
 Mark every canonical source in `items` and `try` with `newsletter_sent` and
-`newsletter_url`. Record the result in Beads. Follow active Git authorization
+`newsletter_url`. Record the result in Beads and close the issue's bead. Follow active Git authorization
 for committing and publishing these updates.
 
 ## Current automation limits

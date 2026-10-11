@@ -16,7 +16,7 @@ Read before drafting: `docs/brand.md` (voice, promise, issue structure) and "Fea
 | Send day | Tuesday. Draft ready for review on Monday. |
 | Week number | ISO 8601 week of the **send date**: `date -j -f %F 2026-09-29 +%G-W%V` → `2026-W40`. |
 | File | `weekly/<ISO year>-w<week>.md`, e.g. `weekly/2026-w40.md`. Site URL `https://wayintoai.com/weekly/2026-w40`. |
-| Subject | The hook only: the lead item as a short, true claim, e.g. `Opus 5.5: top-tier AI for 40% less`. ≤ 50 characters, no emoji or glyphs, no brand, no issue number. This follows common newsletter practice: the sender name (`Way Into AI`) carries the brand, the subject earns the open. Don't reuse a hook shape from recent issues (`rg -n '^subject:' weekly`). |
+| Subject | The hook only: the lead item as a short, true claim, e.g. `Opus 5.5: top-tier AI for 40% less`. ≤ 50 characters (use most of them), no emoji or glyphs, no brand, no issue number. This follows common newsletter practice: the sender name (`Way Into AI`) carries the brand, the subject earns the open. Attribute to the actor (`OpenAI releases…`, not `AI solves…`); don't build it on a precise count, which can change. Don't reuse a hook shape or framing from recent issues (`rg -n '^subject:' weekly`). |
 | Preheader | Starts `Week <N>.` then names the other items (`Also: …`). Not a copy of the subject or description. |
 | Site title | `What mattered · week <N>`. |
 | Issue number | `issue:` = number of `status: sent` issues in `weekly/` + 1. |
@@ -35,11 +35,12 @@ The same file is the site page and the email body, so the body must be plain Com
   - YouTube thumbnail: `curl -sfL -o /tmp/t.jpg https://img.youtube.com/vi/<id>/maxresdefault.jpg` (fall back to `hqdefault.jpg`).
   - An image the reviewer pastes into the chat is not saved to disk. Read it from the clipboard: `osascript -e 'set d to the clipboard as «class PNGf»' -e 'set f to open for access POSIX file "/tmp/clip.png" with write permission' -e 'write d to f' -e 'close access f'`. Then look at it before using it.
 - **No unsubscribe or footer text.** The send step's template adds the canonical link and unsubscribe.
+- Once a post is live its title may change but its slug never does; the issue and the send link to it.
 - Link every item back to the site page first (the site is the notebook; the email is the edit), external source second if useful.
 
 ### Approval and the content hash
 
-The CRM currently binds send approval to a hash of the **whole source file, frontmatter included** (wayintoai-94n.6 tracks narrowing it to body, subject and preheader). So make every pre-send edit first: set `status: approved`, delete `publish: false`, push so the canonical page is live, and only then prepare and draft. Do not touch the file again until the send is confirmed; then set `status: sent` and `sent:`.
+The CRM currently binds send approval to a hash of the **whole source file, frontmatter included** (wayintoai-94n.6 tracks narrowing it to body, subject and preheader). So make every pre-send edit first, including subject, lead and tables: set `status: approved`, delete `publish: false`, push so the canonical page is live, and only then prepare and draft. Do not touch the file again until the send is confirmed; any later edit means prepare, draft and approve again under the same issue key. Pushing needs the editor's explicit go-ahead ("ship it"); if the harness's permission check blocks a push, ask, never route around it. After the send actually goes out, set `status: sent` and `sent:` (see `docs/newsletter-sending.md`).
 
 ### Frontmatter
 
@@ -72,10 +73,12 @@ try: ref/some-tool.md       # the "One thing to try" item (also listed in items)
    python3 .agents/skills/weekly-roundup/gather.py [--today YYYY-MM-DD] [--since YYYY-MM-DD] [--until YYYY-MM-DD]
    ```
 
+   First check the previous issue is `status: sent` with its `sent:` date: the gather window and the issue number depend on it. If you are unsure which week or issue number a sent date belongs to, ask.
+
    Pass `--today` on scheduled runs (the machine may be in UTC). It lists: flagged items (`newsletter: weekly|standalone`) not yet sent, whatever their date, with `STALE` on those over 4 weeks old; log `newsletter_candidates` in the window; new posts/refs in the window; the window's log headings; past try picks; undated refs. "Sent" means `newsletter_sent` on the item **or** listed in a sent issue's `items:`/`try:`. Then **read every candidate file**; never draft from titles.
 
 3. **Select.** Rank: our own posts (they carry our opinion) > flagged `weekly` > refs with the biggest consequences for someone using AI at work > other refs. Keep one canonical item per story (a post beats its ref), and **one story gets at most one What mattered slot**: fold follow-on angles into that item or into The bigger picture.
-   - `newsletter: standalone` → include it in the weekly. A dedicated send is a separate decision the reviewer makes; don't ask about it in the draft.
+   - `newsletter: standalone` → include it in the weekly as the lead item. A dedicated send is a separate decision the reviewer makes; don't ask about it in the draft.
    - `STALE` flagged items → ask, don't include by default.
    - **What mattered:** 3 developments (4 at most). Fewer, shorter items beat a full list. Thin week (fewer than 3 worth it): run 2 and say so in the opener, or add one archive item clearly labelled as such. Never pad.
    - **One thing to try:** one practical thing for people **using** AI: a tool, skill, workflow, prompt, or a useful guide or reference. Not policy or news. The homepage promises one every issue. Prefer this week's items; if none fits, draw from the archive: `/use` posts, refs with a "User Experience Note", `ref/moc-best-ai-skills.md`, guides and references. Don't repeat a past pick. Prefer something a generalist can start in ten minutes. Don't claim I use it unless the repo says so.
@@ -83,9 +86,9 @@ try: ref/some-tool.md       # the "One thing to try" item (also listed in items)
    - **From the log:** up to 3 other worthwhile items, one line each. Leave out bookmarks I haven't tried and anything that is only "interesting". No firehose.
 
 4. **Draft** in house voice (`docs/brand.md`): first person singular (Rufus), specific. This is a **roundup, not new editorial**: report what the sources say, and use only takes already recorded in our posts and refs. Don't add new inferences, predictions or opinions; when in doubt, cut the sentence. Say "I think", "I don't know yet"; no institutional "we". Concrete numbers and examples over adjectives; no hype, doom, jargon, or digest-speak ("In this week's roundup…", "exciting", "game-changer").
-   - **Headlines** state the point as a plain claim. Never the "X, not Y" / "not X but Y" shape, and never the product name alone.
+   - **Headlines** state the point as a plain claim. Never the "X, not Y" / "not X but Y" shape, and never the product name alone. Before writing the subject and lead headline, work out what the story is (who acted, at what scale, why it matters); don't echo the editor's words or patch phrases into an old draft, and don't reuse the framing of an earlier story (a one-off "AI solved problem X" is not a bulk release). Offer about six distinct candidate subjects and pick one with reasons. An editor's pet phrase or commentary (e.g. Dario Amodei's "genius in a data centre") belongs in the post, not the subject, unless the editor insists. An Opus sub-agent writes the subject and lead copy, not the main thread.
    - **Items:** what happened and why it matters, with our take only where a post or ref already states it. Vary the shape; five identical four-sentence paragraphs read like a digest. Keep claims no broader than the evidence (sample sizes, "vendor figures").
-   - **Paragraphs and numbers** follow [docs/numbers-and-charts.md](../../../docs/numbers-and-charts.md): paragraphs of at most about 60 words, broken where the item turns; three or more comparable figures go in a small two-column Markdown table with the subject in **bold** and an italic source caption. A percentage table renders in the email as a bar chart. No images, SVG or HTML for data in the weekly.
+   - **Paragraphs and numbers** follow [docs/numbers-and-charts.md](../../../docs/numbers-and-charts.md): paragraphs of at most about 60 words, broken where the item turns; three or more comparable figures go in a small two-column Markdown table with the subject in **bold** and an italic source or status caption straight after. Only an all-percentage two-column table renders in the email as a bar chart; any other table is plain mono hairline rows. Keep to two columns so it fits a 375px phone. A short table of the most significant results under the lead item works; keep the plain-English meanings and add no claims the source doesn't make. No images, SVG or HTML for data in the weekly.
    - **One thing to try** ends with the exact first step (a command, a menu, a prompt) and how long it takes.
    - **Opener:** one or two sentences naming the week's thread. Issue 1 (or after a gap) also says what this email is, in one sentence.
    - **Sign-off:** invite replies ("Just reply to this email") and point to the log.
