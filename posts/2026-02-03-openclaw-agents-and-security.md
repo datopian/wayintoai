@@ -2,6 +2,7 @@
 title: "OpenClaw: What It Is, Why It Matters, and Early Lessons on Security"
 description: An introduction to OpenClaw agents and early lessons about deploying them securely.
 date: 2026-02-03
+authors: [rufus-pollock]
 ---
 
 A quick update on what we've been experimenting with: **OpenClaw**, autonomous AI agents, and some early lessons around **security and deployment**.

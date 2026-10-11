@@ -2,6 +2,7 @@
 title: This is definitely getting towards superintelligence
 description: OpenAI solved a massive unsolved maths problem — with a model that's only been training since August 28.
 date: 2026-09-10
+authors: [rufus-pollock]
 ---
 
 OpenAI has [solved Navier–Stokes](/ref/openai-navier-stokes-millennium-proof), a massive unsolved problem in mathematics. That's a pretty big deal — and there's already a controversy about it, to do with the mathematicians involved.

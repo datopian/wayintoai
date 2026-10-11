@@ -1,6 +1,7 @@
 ---
 title: "kapa.ai: AI assistants for docs"
 date: 2026-01-15
+authors: [rufus-pollock]
 ---
 
 <https://www.kapa.ai>

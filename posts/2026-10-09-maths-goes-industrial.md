@@ -4,6 +4,7 @@ description: OpenAI just released 719 AI-written maths papers at once, including
 date: 2026-10-09
 featured: true
 newsletter: standalone
+authors: [rufus-pollock]
 ---
 
 I studied maths at Cambridge through to graduate level and very nearly did a PhD. So this one is personal. I think maths as a discipline, in its current form, is in many ways over. If I were a graduate student today, I honestly don't know what I'd be thinking.

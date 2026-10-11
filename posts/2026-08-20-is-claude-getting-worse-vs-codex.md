@@ -2,6 +2,7 @@
 title: Is Claude getting worse (at least compared to Codex)?
 description: A trending question, a 100-hours-vs-20-hours comparison, and my own recent experience that Codex has been unusually solid.
 date: 2026-08-20
+authors: [rufus-pollock]
 ---
 
 ["Is Claude getting worse?"](https://x.com/i/trending/2090084349542822355) is trending on X right now, always next to the same comparison: Codex.

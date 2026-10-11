@@ -2,6 +2,7 @@
 title: "Why Writing Hasn't Had Its Claude / Codex Moment (Yet)"
 description: "AI-native coding tools have transformed how developers work. Writing — essays, books, screenplays, courses — deserves the same thing. Here's what exists, what's missing, and what you can do today."
 date: 2026-02-08
+authors: [rufus-pollock]
 ---
 
 ## **Executive summary**

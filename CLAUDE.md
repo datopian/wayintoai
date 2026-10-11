@@ -2,6 +2,10 @@
 
 This file provides instructions and context for AI coding agents working on this project.
 
+## Post Authors
+
+Every post in `posts/` (except `posts/index.md`) needs `authors` in its frontmatter. For posts by Rufus Pollock, use `authors: [rufus-pollock]`. Flowershow resolves this to `authors/rufus-pollock.md`, which holds his display name, profile, and Gravatar. For another author, add their own profile page and use its filename stem in `authors`. The singular `author` field used by reference entries does not configure Flowershow post bylines.
+
 ## Changelog
 
 For editorial featuring and newsletter selection, follow **Featuring and newsletter selection** in `SKILL.md`: use `featured` and `newsletter` on the canonical post/reference, and `newsletter_candidates` links in daily logs. These flags do not send email.

@@ -2,6 +2,7 @@
 title: "🤔 looking for a new AI-oriented terminal"
 description: "Doing a plenty of AI related coding and finding the default apple terminal a pain"
 date: 2026-01-13
+authors: [rufus-pollock]
 ---
 
 🤔 looking for a new terminal. Doing a plenty of AI related coding and finding the default apple terminal a pain. e.g. difficult to insert new lines etc. no ability to use mouse to move in text etc. Also would love things like being able to organize different coding sessions together (hey wouldn’t naming these like tab groups on Arc be nice!).

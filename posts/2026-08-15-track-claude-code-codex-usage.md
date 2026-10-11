@@ -2,6 +2,7 @@
 title: How I track Claude Code and Codex usage in real time
 description: A practical look at local tools for tracking live usage, tokens, sessions, and history across Claude Code and Codex.
 date: 2026-08-15
+authors: [rufus-pollock]
 ---
 
 I want to see how much Claude Code or Codex I am using while I am using it. At the moment I have to open Claude settings or the equivalent Codex usage screen and check by hand. It is a pain.

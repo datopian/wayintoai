@@ -244,6 +244,8 @@ of Gmail (2M emails, 150K attachments) in a single Go binary.
 
 ## Guidelines
 
+**Post authors:** Every post in `posts/` (except `posts/index.md`) needs `authors` in its frontmatter. For posts by Rufus Pollock, use `authors: [rufus-pollock]`. Flowershow links this to `authors/rufus-pollock.md` and displays its `title` and `avatar` in the post header. Keep profile details and the Gravatar URL on that shared author page. For another author, create a separate profile page and use its filename stem in `authors`; the singular `author` field used by reference entries does not configure Flowershow post bylines.
+
 **Conciseness:**
 - Log entries: 1-2 sentences capturing essence
 - Reference entries: comprehensive but organized

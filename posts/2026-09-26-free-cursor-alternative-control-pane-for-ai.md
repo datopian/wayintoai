@@ -2,6 +2,7 @@
 title: Is there a free, open-source Cursor alternative that uses my own AI subscriptions?
 description: I want one place to watch many AI agents at once, on the Claude and ChatGPT plans I already pay for, with Beads in the loop. Here's what exists and what doesn't.
 date: 2026-09-26
+authors: [rufus-pollock]
 ---
 
 **TL;DR:** Yes, but the useful question isn't "which editor replaces Cursor". It's "which app runs the official Claude Code / Codex CLIs side by side and tells me when one needs me". Right now that's **Superset** (free, source-available), **cmux** (free, and it has a Beads plugin) or **bb** (MIT, plugin-extensible, no Beads plugin yet). Almost nothing shows the *graph* of work, and Anthropic's rules mean many "open-source Cursor" tools can't use your Claude plan at all.

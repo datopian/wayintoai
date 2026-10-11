@@ -2,6 +2,7 @@
 title: How do I run multiple threads in Claude at the same time?
 description: I don't want to wait on one Claude Code thread before starting the next — here's what's actually available today for running several at once on the same project.
 date: 2026-08-26
+authors: [rufus-pollock]
 ---
 
 **TL;DR:** There's no "multiple threads, one brain" mode. What you actually get is four bolt-on tricks — background subagents, git worktrees, an experimental teammates mode, and a dashboard so you stop staring at one terminal — and you'll probably end up duct-taping two of them together, same as everyone else.

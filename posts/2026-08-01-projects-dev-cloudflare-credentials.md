@@ -2,6 +2,7 @@
 title: Can Stripe Projects remove the credential dance from AI deployments?
 description: A hands-on look at using Stripe Projects to provision Cloudflare services and credentials for coding agents.
 date: 2026-08-01
+authors: [rufus-pollock]
 ---
 
 I keep hitting the same failure mode with AI coding agents. The agent builds the project, gets as far as deployment—and then everything stops. Now I need to log in to Cloudflare, work out what kind of token it needs, choose the right permissions, copy an account ID somewhere, or run `wrangler login`. The code was the fast part; authorizing the infrastructure is the blocker.

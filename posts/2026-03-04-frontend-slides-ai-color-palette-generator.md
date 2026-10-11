@@ -2,6 +2,7 @@
 title: "Frontend Slides & AI Color Palette Generator"
 description: "Day 2026-03-04"
 date: 2026-03-04
+authors: [rufus-pollock]
 ---
 
 ## [frontend-slides](https://ailearnedtoday.com/ref/frontend-slides) - Beautiful Web Presentations with Claude

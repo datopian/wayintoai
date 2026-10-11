@@ -53,12 +53,14 @@ Every blog post in `posts/` (excluding `posts/index.md`) must begin with:
 title: A concise post title
 description: A one-sentence summary used in listings and social metadata.
 date: YYYY-MM-DD
+authors: [rufus-pollock]
 ---
 ```
 
 - The date must match the date prefix in the filename.
 - Do not repeat the title as an H1 in the body. Flowershow renders the frontmatter `title` as the page title.
 - Start the body with the opening paragraph, tagline, or screenshot as appropriate.
+- Use `authors: [rufus-pollock]` for posts by Rufus Pollock. Flowershow resolves this to `authors/rufus-pollock.md`, which holds his display name, profile, and Gravatar. For another author, add their own profile page and use its filename stem in `authors`.
 - Keep `title`, `description`, and `date` accurate because the homepage and `posts/index.md` use them to render and sort post listings.
 
 ### Frontmatter

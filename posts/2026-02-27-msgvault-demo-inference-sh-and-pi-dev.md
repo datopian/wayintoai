@@ -2,6 +2,7 @@
 title: "msgvault demo, inference.sh and pi.dev"
 description: "Wes McKinney’s msgvault, the inference-sh Agent Platform, and the Launch of Pi.dev (back in early Feb)"
 date: 2026-02-27
+authors: [rufus-pollock]
 ---
 
 ## [msgvault](https://ailearnedtoday.com/ref/msgvault) - Local-first Email Archive

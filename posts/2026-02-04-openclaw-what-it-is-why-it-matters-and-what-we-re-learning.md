@@ -2,6 +2,7 @@
 title: "OpenClaw: What It Is, Why It Matters, and What We’re Learning"
 description: "A quick update on experimenting with OpenClaw, autonomous AI agents, and some early lessons around security and deployment."
 date: 2026-02-04
+authors: [rufus-pollock]
 ---
 
 Plus we did our first video 😉

@@ -2,6 +2,7 @@
 title: "skill vs agents vs claude — which do you need?"
 description: "Three agent instruction formats compared"
 date: 2026-03-02
+authors: [rufus-pollock]
 ---
 
 **Three different conventions for instructing AI agents, each with a distinct purpose and scope.**

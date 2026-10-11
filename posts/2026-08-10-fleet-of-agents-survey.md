@@ -3,6 +3,7 @@ title: "Fleet of agents: a survey of orchestration tools (WIP)"
 description: Optio, Paperclip, Gas Town, or Claude's own Agent Teams — which one actually manages a fleet of agents instead of just watching them? A field survey with a verdict.
 date: 2026-08-10
 updated: 2026-08-16
+authors: [rufus-pollock]
 ---
 
 *This is a work in progress — first pass at the research, published as I go. Follow-up to [How do I run a fleet of coding agents?](/posts/2026-08-10-running-a-fleet-of-agents)*

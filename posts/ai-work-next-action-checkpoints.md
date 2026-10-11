@@ -3,6 +3,7 @@ title: Give AI work a next action
 description: A simple checkpoint pattern for resuming AI work across sessions and repos.
 created: 2026-08-08
 date: 2026-08-08
+authors: [rufus-pollock]
 ---
 
 AI coding work rarely happens in one sitting anymore. A project may span a long-running tmux session, several agents, a GitHub repository, and a personal planning system. The hard part is often not doing the work. It is knowing what to do when you come back.

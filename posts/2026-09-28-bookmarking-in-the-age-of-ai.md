@@ -2,6 +2,7 @@
 title: Bookmarking in the age of AI
 description: Why use a bookmarking app when AI plus a markdown repo does it better? Capture is simple, the gardening is now largely automatic, and bookmarks become papertrails and knowledge bases.
 date: 2026-09-28
+authors: [rufus-pollock]
 ---
 
 **TL;DR:** AI has changed bookmarking, like so much else. I don't need a dedicated app or service any more: an AI agent plus a plain markdown repo does it, and does more. The part that always made bookmarks useful over time, the gardening (tagging, weeding, linking, summarising), is something I never kept up with. It can now be largely automatic if things are set up well. So bookmarks become something richer: **papertrails** of what I found and thought during a session, feeding curated **knowledge bases**. Starting was easy (paste to an AI, or drop via Telegram). Now that I do it all the time, I'm hitting some real tensions, and they point to what the next step looks like.

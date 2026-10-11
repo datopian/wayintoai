@@ -2,6 +2,7 @@
 title: Is there a tool for two people to drive one AI agent session together, live?
 description: I want VS Code Live Share, but for a coding-agent session — both of us typing into the same repo, same terminal, same prompt, at once. Here's what I found instead.
 date: 2026-09-27
+authors: [rufus-pollock]
 ---
 
 > **Update (2026-10-05):** Zed have now built this: [Delta](/ref/delta-zed), a multiplayer environment where teammates join the same live agent thread.

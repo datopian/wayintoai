@@ -2,6 +2,7 @@
 title: Why can a $20 Claude plan show hundreds of dollars of API usage?
 description: Why a Claude subscription can appear to deliver hundreds of dollars of API-token value, and why that does not mean the numbers are directly comparable.
 date: 2026-08-15
+authors: [rufus-pollock]
 ---
 
 I had a slightly strange moment looking at OpenUsage. In the last 30 days it estimated $512 of Claude and Codex usage at API prices. Most of that was Claude: $349.51. I am on the $20/month Claude plan.

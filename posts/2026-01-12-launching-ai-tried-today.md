@@ -2,6 +2,7 @@
 title: "Launching: AI, Tried Today"
 description: "Why I’m starting a small, public journal of learning to use AI."
 date: 2026-01-12
+authors: [rufus-pollock]
 ---
 
 I’ve been spending a lot of time recently learning how to use AI in my day-to-day work—trying tools, experimenting with workflows, bumping into surprises, and slowly building intuition by doing.

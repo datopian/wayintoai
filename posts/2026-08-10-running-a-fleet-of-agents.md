@@ -2,6 +2,7 @@
 title: How do I run a fleet of coding agents?
 description: I've got more work than one agent session can handle, and I want a manager layer that farms it out and tracks it cross models
 date: 2026-08-10
+authors: [rufus-pollock]
 ---
 
 ![Claude Code Agent View, a dashboard for multiple concurrent agent sessions](https://screenshotit.app/https://claudefa.st/blog/guide/agents/agent-view)

@@ -2,6 +2,7 @@
 title: The Future Is Apps Inside AI, Not AI Inside Apps
 description: From AI-powered tools to AI as the operating system.
 date: 2026-03-25
+authors: [rufus-pollock]
 ---
 
 Cross-posted from [rufuspollock.com](https://rufuspollock.com/post/future-is-apps-inside-ai-not-ai-powered-apps).

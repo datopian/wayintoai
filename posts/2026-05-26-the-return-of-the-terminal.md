@@ -2,6 +2,7 @@
 title: "The Return of the Terminal"
 description: "Forty years ago, all you had was the terminal. Now it's back thanks to AI and voice."
 date: 2026-05-26
+authors: [rufus-pollock]
 ---
 
 Forty years ago, all you had was the terminal. It was *the* interface to computing -- simple, text-based, easy for a computer to parse, and extremely efficient. Then we built GUIs because humans are visual beings.
