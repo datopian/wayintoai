@@ -1,6 +1,6 @@
 ---
-title: Maths is being industrialised, and it's making mathematicians dizzy
-description: OpenAI just released 719 AI-written maths papers at once, including a result one mathematician called "an instant Fields Medal". The pace, and what it's breaking, is the story.
+title: "A genius in a data centre: OpenAI claims 719 maths breakthroughs at once"
+description: OpenAI just released 719 AI-written maths papers at once, claiming proofs of long-standing open problems, including one a leading mathematician called "an instant Fields Medal". Maths is being industrialised, and it's making mathematicians dizzy.
 date: 2026-10-09
 featured: true
 newsletter: standalone
@@ -9,7 +9,7 @@ authors: [rufus-pollock]
 
 I studied maths at Cambridge through to graduate level and very nearly did a PhD. So this one is personal. I think maths as a discipline, in its current form, is in many ways over. If I were a graduate student today, I honestly don't know what I'd be thinking.
 
-Here's why. This week OpenAI [released 719 maths papers](/ref/openai-math-results-release), all written by an unreleased internal model. They aren't exercises. They are claimed solutions to open problems, grouped into 372 "families" of related results, and the list includes some of the biggest names in number theory and geometry.
+Here's why. This week OpenAI [released 719 maths papers](/ref/openai-math-results-release), all written by an unreleased internal model. They aren't exercises. They are claimed solutions to open problems, grouped into 372 "families" of related results, and the list includes some of the biggest names in number theory and geometry. Individually, several would be career-defining: the kind of result that wins a Fields Medal or settles a whole field. Here there are hundreds, from one model, in one drop. This is Dario Amodei's ["country of geniuses in a datacenter"](https://www.darioamodei.com/essay/machines-of-loving-grace) showing up in one field, at scale.
 
 The one that stopped people in their tracks is the **quasi-Riemann hypothesis**: a proof that the Riemann zeta function has no zeros to the right of the line Re(s) = 7/8. Alex Kontorovich, a professor of mathematics at Rutgers, posted:
 
