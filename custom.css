@@ -205,3 +205,9 @@ body { background: var(--color-background); }
 .rendered-mdx .wai--embed .wai__small { font-size: 0.8rem; line-height: 1.5; margin: 0.6rem 0 0; }
 .rendered-mdx .wai--embed .wai__small a { color: inherit; }
 .wai__small .wai__cta { color: var(--wai-pencil); }
+
+/* Signup box in the custom footer (_footer.html). Hidden where a form is already on the page (homepage, /weekly). */
+.site-footer-custom .wai--footer { border-bottom: 0; border-top: 1px solid var(--wai-rule); margin: 2rem 0 0; padding: 1.4rem 0 0.5rem; }
+.site-footer-custom .wai--footer-meta { padding: 0.5rem 0 1.5rem; }
+.site-footer-custom .wai--footer-meta .wai__small a { color: inherit; }
+body:has(#subscribe) #footer-subscribe { display: none; }
