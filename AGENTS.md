@@ -57,7 +57,7 @@ authors: [rufus-pollock]
 ---
 ```
 
-- The date must match the date prefix in the filename.
+- Name post files by slug only, with no date prefix: `posts/ai-is-the-interface-apps-are-storage.md`, not `posts/2026-07-15-ai-is-the-interface-apps-are-storage.md`. The date lives only in the `date` field. Older posts keep their dated filenames so their URLs don't break; don't rename them.
 - Do not repeat the title as an H1 in the body. Flowershow renders the frontmatter `title` as the page title.
 - Start the body with the opening paragraph, tagline, or screenshot as appropriate.
 - Use `authors: [rufus-pollock]` for posts by Rufus Pollock. Flowershow resolves this to `authors/rufus-pollock.md`, which holds his display name, profile, and Gravatar. For another author, add their own profile page and use its filename stem in `authors`.

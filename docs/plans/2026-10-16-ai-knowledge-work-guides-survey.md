@@ -120,7 +120,7 @@ Nearly everything for beginners falls into four types. (a) **Vendor "getting sta
 ### Risk of duplicating something better
 
 - **Low:** the filing-cabinet concepts piece. No equivalent found. (Caveat: this is a web-search survey, not exhaustive; Forte Labs and Citrix are the nearest, and I could not read Forte's materials.)
-- **Medium:** the manifesto. "Work in the AI, not in apps" overlaps with Mollick's agentic-era writing, Karpathy, and the systems-of-record posts. Anchor it by linking to them rather than competing, and lead with the practice (the four everyday situations), which they lack.
+- **Not a concern (Rufus, 2026-10-16):** the manifesto's thesis. "Work in the AI, not in apps" overlaps with Mollick's agentic-era writing, Karpathy, and the systems-of-record posts, and that is welcome: convergence is evidence. Link to them, and keep the practice (the four everyday situations) as what we add. The thesis also gets its own blog post with a growing "others saying this" section (wayintoai-z1c).
 - **Medium, tool-picking content:** anything in our intro that recommends specific tools or plans should be dropped or replaced by a link to Mollick, who updates his guide and has more authority.
 - **Watch:** Anthropic and others are moving fast into this space (Cowork, Skills, projects, connectors). Within months vendors may publish "organise your files for Cowork" guidance. A concepts-first piece is more defensible than a tool-specific one, but we should publish soon and avoid tool-specific claims.
 
