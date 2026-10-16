@@ -8,6 +8,7 @@ AI is most useful when it changes a real piece of work. Start here for practical
 
 ## Start here
 
+- [AI for Knowledge Work →](/use/knowledge-work) — our guide to doing everyday knowledge work with AI, from organising your files to planning your day. Start here if you're new.
 - [Best AI Skills →](/ref/moc-best-ai-skills) — reusable instructions and conventions worth adopting for coding, writing, design, and more.
 - [Loop Engineering →](/ref/moc-loop-engineering) — how to build a system that keeps AI agents moving through useful work.
 - [How do I run a fleet of coding agents? →](/posts/2026-08-10-running-a-fleet-of-agents) — a practical exploration of coordinating more than one agent without losing oversight.
