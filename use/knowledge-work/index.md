@@ -1,58 +1,15 @@
 ---
 title: AI for Knowledge Work
-description: A guide to doing everyday knowledge work with AI, for people starting out.
+description: A short guide to moving everyday knowledge work onto AI, for people starting out.
 showToc: false
 ---
 
-How to move everyday knowledge work onto AI. For people starting out; no technical background needed. Read in order. You don't need an AI to read parts 1 and 2; for part 3, [pick one in two minutes](/use/knowledge-work/which-ai).
+How to organise your work so an AI can find its way around it, and then how to work through the AI day to day. No technical background needed, and you can read it all without an AI. For the exercises at the end you'll need one: if you don't have one yet, [here's how to choose](/use/knowledge-work/which-ai).
 
-<div class="kw-grid">
-<a class="kw-card" href="/use/knowledge-work/concepts">
-<span class="kw-num">1</span>
-<pre>
- ┌─ cabinet ─┐  □ □
- │ ▭  ▭  ▭   │  □ □
- └───────────┘  post-its
-</pre>
-<h3>Post-its and filing cabinets</h3>
-<p>How to organise shared work.</p>
-</a>
-<a class="kw-card" href="/use/knowledge-work/how-to-use-ai">
-<span class="kw-num">2</span>
-<pre>
-      you
-     ▲   │
-  ┌──┴───▼──┐
-  │   AI    │
-  └──┬───▲──┘
-   [ storage ]
-</pre>
-<h3>AI is the interface</h3>
-<p>A short manifesto and the day-to-day practice.</p>
-</a>
-<a class="kw-card" href="/use/knowledge-work/try-it">
-<span class="kw-num">3</span>
-<pre>
- > what's on today?
- ┌─────────────┐
- │ 09 venue    │
- │ 11 call     │
- └─────────────┘
-</pre>
-<h3>Try it</h3>
-<p>Two exercises with worked examples.</p>
-</a>
-<a class="kw-card" href="/use/knowledge-work/which-ai">
-<span class="kw-num">?</span>
-<pre>
-  Claude   ChatGPT
-   \|/      __
-  --*--   /  \
-   /|\    \__/
-</pre>
-<h3>Which AI?</h3>
-<p>Pick one in two minutes.</p>
-</a>
-</div>
+<ol class="kw-steps">
+<li><a href="/use/knowledge-work/concepts"><span class="kw-steps__n">01</span><span class="kw-steps__t">Post-its and filing cabinets: how to organise shared work</span><span class="kw-steps__m">12 min read</span></a></li>
+<li><a href="/use/knowledge-work/how-to-use-ai"><span class="kw-steps__n">02</span><span class="kw-steps__t">AI is the interface: how to use AI for knowledge work</span><span class="kw-steps__m">10 min read</span></a></li>
+<li><a href="/use/knowledge-work/try-it"><span class="kw-steps__n">03</span><span class="kw-steps__t">Try it: two exercises</span><span class="kw-steps__m">with your own AI</span></a></li>
+</ol>
 
-A first version, drawn from how we work at [Life Itself](https://lifeitself.org) and improved in public. More chapters (planning, design, research, automation) will follow.
+A first version, drawn from how we work at [Life Itself](https://lifeitself.org) and improved in public. More chapters will follow.
