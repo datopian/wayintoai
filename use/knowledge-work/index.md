@@ -10,7 +10,11 @@ How to move your everyday knowledge work (planning, writing, coordinating with o
 
 There are really two choices for most knowledge work: **Claude** and **ChatGPT**. Both are good. Get the paid plan, about $20 a month; the free tiers run out quickly and hold back the better models.
 
-Not sure? **Pick Claude.** It's what we use, and it's strongest at the work this guide is about: writing, planning, and working with your documents and files.
+Not sure? **Pick Claude.** Not because it's the strongest model (that changes month to month and is debatable) but because its app is the best designed: friendlier and easier to find your way around, a bit like Apple. That matters most if you're less technical. It's what we use.
+
+The trade-off: for the same $20, ChatGPT is usually more generous with how much you can use it. Most knowledge workers won't hit Claude's limits, but if you use AI heavily all day, or write a lot of code, you may want both.
+
+This is advice for everyday knowledge work, not a general verdict on which AI is best.
 
 You don't need a prompting course. These AIs are now good enough that you can just talk to them, as you would to a capable colleague: say what you want, give it the background, and push back when it's wrong.
 
