@@ -17,14 +17,14 @@ This guide is about patterns for working with AI, and they should hold whatever 
 
 **AI is transforming how we work. We used to work in apps. Now we work in the AI.**
 
-1. **The AI is the interface.** Start there, not in Asana, GitHub or Docs.
-2. **Talk to it.** Speak, don't type. It makes starting easier and rich context cheap to give. Don't tidy; say more.
+1. **The AI is the interface.** Start there, not in Asana, GitHub or Docs.[^interface]
+2. **Talk to it.** Speak, don't type. It makes starting easier and rich context cheap to give. Don't tidy; say more.[^voice]
 3. **Let it build the view.** Ask for the table, plan or graph you need. You don't need an app's screens.
-4. **Apps are storage: choose tools more for the AI than you.** We used to pick tools for their interfaces. Now pick them for how well your AI can read and write them. For example, [Beads](https://github.com/steveyegge/beads) is a simple task tracker built to suit AI.
+4. **Apps are storage: choose tools more for the AI than you.** We used to pick tools for their interfaces. Now pick them for how well your AI can read and write them. For example, [Beads](https://github.com/steveyegge/beads) is a simple task tracker built to suit AI.[^storage]
 5. **Develop processes for both you and your AI.** Develop processes for people and for AI, so that it can take on more of the work over time.
 6. **Plan and coordinate through the AI.** Think out loud to plan, report by talking, ask it what's next.
-7. **Land the plane.** End a planning or collaborative session by updating the tasks and plans: what got done, what didn't work, where to start next time.
-8. **You still think and steer.** Working with AI is a collaboration, not a delegation. What we hand over is the job apps used to do: building interfaces for us. The thinking and the decisions stay with us. And if you need to know what's going on underneath, ask the AI, and ask it to show its sources.
+7. **Land the plane.** End a planning or collaborative session by updating the tasks and plans: what got done, what didn't work, where to start next time.[^landing]
+8. **You still think and steer.** Working with AI is a collaboration, not a delegation. What we hand over is the job apps used to do: building interfaces for us. The thinking and the decisions stay with us. And if you need to know what's going on underneath, ask the AI, and ask it to show its sources.[^steer]
 
 **It's a new way of working. We need to give ourselves time to practise and adapt.**
 
@@ -151,6 +151,22 @@ Often the honest answer to "what's on?" is "it isn't clear": a project has no ne
 
 *To discuss.* Handing work to someone else, whether a colleague or an AI session, comes down to the same thing: the work is written up in enough detail that anyone can pick it up. How much detail, and in what form, is still an open question. Talking is still better for judgement, relationships, and anything not yet written down.
 
+## Try it: run one day through your AI
+
+One working day. Any AI chat app works. Check what your organisation allows before pasting work details into an AI, and leave out anything personal or confidential. No time for a full day? Do steps 1, 2 and 4 in one sitting.
+
+1. **Morning, ask what's on.** Press the microphone button and talk: read out your meetings for the day and what's on your mind. Then ask: "What's the one thing I should do if I did nothing else? Give me a plan for the hours I actually have, as a simple timetable."
+2. **Push back once.** Tell it what it missed ("the call at three runs long", "the report matters more than the email") and let it redo the plan.
+3. **Work, and keep this one chat open all day.** A chat app doesn't remember other conversations. When something gets done or decided, say so in a sentence there.
+4. **Land the plane.** At the end of the day: "Write a short note: what got done, what didn't and why, and where I start tomorrow." Save the note somewhere you'll find it, such as the project's folder.
+5. **Next morning, start from the note.** Open a new chat, paste in yesterday's note, then ask what's on. Notice that it picks up where you left off, without you having to remember.
+
+### A worked example
+
+Priya runs events for a small charity. At 9am she says: "I've got a funder call at 11 and a team meeting at 3. On my mind: the venue for the autumn gathering isn't booked, the newsletter is due Friday, and I owe Dan a reply about the budget." Her AI replies with a timetable: the Dan reply is a two-line email, so do it first; venue from 9:15 to 10:45, because it blocks the invites; newsletter draft in the gap after lunch. Priya pushes back: the funder call needs prep. The AI moves the venue to after the call.
+
+At two she says: "Venue's booked, Hilltop Farm. Dan's done. Newsletter's half drafted." At five she says: "Write a short note: what got done, what didn't, and where I start tomorrow." The AI writes: "Done: venue booked (Hilltop Farm), Dan answered. Not done: newsletter, half drafted. Tomorrow: finish the newsletter first; invites can now go out." Next morning she pastes that note into a new chat and asks what's on. The plan starts with the newsletter.
+
 ## Glossary
 
 - **Storage (memory).** Where work is kept so that people and AI can read and write it. Two main parts: reference and tasks.
@@ -164,6 +180,12 @@ Often the honest answer to "what's on?" is "it isn't clear": a project has no ne
 - **Beads.** A simple task tracker, kept alongside your files, that records dependencies between tasks and is fast and cheap for AI to use. See [Beads on GitHub](https://github.com/steveyegge/beads).
 
 [^torres]: Others are converging on the same practice. For example, Teresa Torres uses a `/today` command that builds her day's list from task files, having left Trello to do it ([How I AI, January 2026](https://www.chatprd.ai/how-i-ai/teresa-torres-claude-code-obsdian-task-management)).
+
+[^interface]: Others see the same shift. Ethan Mollick on working through agents rather than apps: [Claude Code and what comes next](https://www.oneusefulthing.org/p/claude-code-and-what-comes-next) (January 2026). Matt Webb on services going "headless", with your own AI as the front end: [Headless](https://interconnected.org/home/2026/04/18/headless) (April 2026).
+[^voice]: Chris Blattman finds the main benefit of dictation is that it makes starting easier, not that it is faster: [Voice dictation](https://claudeblattman.com/essentials/wispr-flow/).
+[^storage]: On apps becoming storage that agents read and write: Jamin Ball, [Long live systems of record](https://cloudedjudgement.substack.com/p/clouded-judgement-121225-long-live) (December 2025), and Steven Lin, [SaaS is becoming long-term memory for AI agents](https://stevenlin.substack.com/p/saas-is-becoming-long-term-memory) (January 2026).
+[^landing]: "Landing the plane" is a phrase from the Beads community: see [Beads: memory for coding agents](https://paddo.dev/blog/beads-memory-for-coding-agents) (paddo.dev, December 2025).
+[^steer]: Why steering matters. AI output can look finished and be hollow: about 40% of workers say they received such "workslop" in the past month ([Harvard Business Review, September 2025](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity)). Feeling faster is not the same as being faster: in one study experienced developers were 19% slower with AI while believing they were 20% faster ([METR, July 2025](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/); METR has since published a follow-up). And Ethan Mollick argues that working with AI is a management skill: knowing what to hand over and how to check it ([Management as AI superpower](https://www.oneusefulthing.org/p/management-as-ai-superpower), January 2026).
 
 ---
 
