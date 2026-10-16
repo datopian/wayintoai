@@ -225,6 +225,5 @@ body:has(#subscribe) #footer-subscribe { display: none; }
 .kw-pair { border-left: 1px solid var(--site-rule); border-top: 1px solid var(--site-rule); display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); margin: 1.5rem 0; }
 .kw-choice { border-bottom: 1px solid var(--site-rule); border-right: 1px solid var(--site-rule); padding: 1.25rem 1.4rem; }
 .kw-logo { display: block; height: 2.25rem; margin-bottom: 0.9rem; width: 2.25rem; }
-.rendered-mdx .kw-choice h3 { font-family: var(--wai-serif); font-size: 1.4rem; font-weight: 400; margin: 0 !important; }
-.rendered-mdx .kw-choice h3::before { content: none; }
+.rendered-mdx .kw-choice .kw-name { font-family: var(--wai-serif); font-size: 1.4rem; line-height: 1.2; margin: 0 !important; }
 .kw-choice p { font-size: 0.95rem; margin: 0.4rem 0 !important; }
