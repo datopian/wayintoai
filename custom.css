@@ -221,3 +221,7 @@ a.kw-card:hover h3 { color: var(--color-accent); }
 .kw-card h3 { font-family: var(--wai-serif); font-size: 1.3rem; font-weight: 400; margin: 0 0 0.25rem !important; }
 .kw-card p { font-size: 0.9rem; margin: 0.25rem 0 !important; }
 .kw-num { color: var(--color-accent); font-family: var(--wai-mono); font-size: 0.8rem; position: absolute; right: 1rem; top: 0.8rem; }
+.rendered-mdx .kw-card h3::before { content: none; }
+.rendered-mdx .kw-card h3 { padding: 0 !important; text-indent: 0 !important; margin-left: 0 !important; }
+.rendered-mdx a.kw-card, .rendered-mdx a.kw-card p { color: var(--color-foreground) !important; text-decoration: none !important; }
+.rendered-mdx a.kw-card p { color: var(--site-muted) !important; }
