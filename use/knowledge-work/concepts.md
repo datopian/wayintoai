@@ -9,7 +9,7 @@ authors: [rufus-pollock]
 
 # Post-its and filing cabinets: how to organise shared work
 
-How to organise a team's documents and tasks. We build up an old-fashioned office one piece at a time, then map it to digital tools and AI. No technical knowledge needed.
+We build up an old-fashioned office one piece at a time, then map it to digital tools and AI.
 
 ```
  PART 1 · THE OFFICE  (paper only)
@@ -381,29 +381,8 @@ It isn't good at everything: Google Docs is better for writing together live, an
  the plan        its 3 links: one commit
 ```
 
-## Try it: set up one project folder with your AI
+## Next
 
-About 20 minutes to sort, longer to file. Pick one real piece of work you have on now, with some documents and some things to do. Any AI chat app works (ChatGPT, Claude, Gemini). Check what your organisation allows before pasting work documents into an AI, and leave out anything personal or confidential.
+[AI is the interface: how to use AI for knowledge work →](/use/knowledge-work/how-to-use-ai)
 
-1. **Describe it out loud.** Press the microphone button and tell your AI what the work is, what papers you have and what needs doing. Don't tidy; say a lot.
-2. **Ask for the office.** "Using this picture: folders for things we keep, post-its for things to do, and a pointer when something lives somewhere else. Sort what I just told you into those. Show me the folder, the list of post-its and any pointers."
-3. **Check it.** Is anything a post-it that should be kept, or the other way round? Is anything kept in two places? Push back until it's right.
-4. **Make it real.** Create the folder and put the papers in it. Put the to-dos wherever you keep tasks; if that's somewhere else, it gets a pointer.
-5. **Test it.** Ask your AI to write a one-page note for the folder: what this is, where things live, and the next step. Start a new chat, paste in only that note, and ask: "What is this project, and what's next?" If it can answer, your folder works: a fresh AI only knows what it can read.
-
-### A worked example
-
-Sam is organising the summer retreat. They say to their AI: "I'm running a three-day retreat in June. I've got a plan in a Google Doc, three venue quotes in my email, a budget spreadsheet Alex keeps, and I need to book a venue, send invites and sort food."
-
-The AI sorts it:
-
-- **Folder, Summer retreat:** the plan; the three venue quotes, saved from email into the folder; a pointer: "Budget: Alex's spreadsheet, link here".
-- **Post-its:** Book venue (pick from the three quotes); Send invites (after the venue is booked); Sort food.
-- **Spotted:** the quotes won't change, so a copy is fine. The budget is Alex's and keeps changing, so keep a pointer, not a copy, or the two will drift.
-
-Sam files the quotes, adds the pointer and the three tasks, and asks for the one-page note. Next morning a new chat, given only that note, says: "This is the June retreat. Next: choose a venue from the three quotes; invites wait on that."
-
-## Where next
-
-- [AI is the interface: how to use AI for knowledge work](/use/knowledge-work/how-to-use-ai): working through the AI, day to day.
-- [How Life Itself does it](https://planning.lifeitself.org/guides/our-office): this office mapped onto one real organisation's repos.
+See also: [how Life Itself does it](https://planning.lifeitself.org/guides/our-office), this office mapped onto one organisation's repos.

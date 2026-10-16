@@ -9,9 +9,7 @@ authors: [rufus-pollock]
 
 # AI is the interface: how to use AI for knowledge work
 
-A growing guide to moving knowledge work onto AI: a short manifesto, then the day-to-day practice. It is drawn from how we work at [Life Itself](https://lifeitself.org), and written for anyone starting out. It begins with the biggest shift, the AI as the interface for your work, especially for planning and coordinating. Further chapters (planning, design, research, automation) will follow. If the words "repo" or "git" are new to you, start with [Post-its and filing cabinets](/use/knowledge-work/concepts).
-
-This guide is about patterns for working with AI, and they should hold whatever tools you use.
+A short manifesto, then the day-to-day practice. The patterns hold whatever AI or tools you use.
 
 ## The manifesto: AI and knowledge work
 
@@ -151,22 +149,6 @@ Often the honest answer to "what's on?" is "it isn't clear": a project has no ne
 
 *To discuss.* Handing work to someone else, whether a colleague or an AI session, comes down to the same thing: the work is written up in enough detail that anyone can pick it up. How much detail, and in what form, is still an open question. Talking is still better for judgement, relationships, and anything not yet written down.
 
-## Try it: run one day through your AI
-
-One working day. Any AI chat app works. Check what your organisation allows before pasting work details into an AI, and leave out anything personal or confidential. No time for a full day? Do steps 1, 2 and 4 in one sitting.
-
-1. **Morning, ask what's on.** Press the microphone button and talk: read out your meetings for the day and what's on your mind. Then ask: "What's the one thing I should do if I did nothing else? Give me a plan for the hours I actually have, as a simple timetable."
-2. **Push back once.** Tell it what it missed ("the call at three runs long", "the report matters more than the email") and let it redo the plan.
-3. **Work, and keep this one chat open all day.** A chat app doesn't remember other conversations. When something gets done or decided, say so in a sentence there.
-4. **Land the plane.** At the end of the day: "Write a short note: what got done, what didn't and why, and where I start tomorrow." Save the note somewhere you'll find it, such as the project's folder.
-5. **Next morning, start from the note.** Open a new chat, paste in yesterday's note, then ask what's on. Notice that it picks up where you left off, without you having to remember.
-
-### A worked example
-
-Priya runs events for a small charity. At 9am she says: "I've got a funder call at 11 and a team meeting at 3. On my mind: the venue for the autumn gathering isn't booked, the newsletter is due Friday, and I owe Dan a reply about the budget." Her AI replies with a timetable: the Dan reply is a two-line email, so do it first; venue from 9:15 to 10:45, because it blocks the invites; newsletter draft in the gap after lunch. Priya pushes back: the funder call needs prep. The AI moves the venue to after the call.
-
-At two she says: "Venue's booked, Hilltop Farm. Dan's done. Newsletter's half drafted." At five she says: "Write a short note: what got done, what didn't, and where I start tomorrow." The AI writes: "Done: venue booked (Hilltop Farm), Dan answered. Not done: newsletter, half drafted. Tomorrow: finish the newsletter first; invites can now go out." Next morning she pastes that note into a new chat and asks what's on. The plan starts with the newsletter.
-
 ## Glossary
 
 - **Storage (memory).** Where work is kept so that people and AI can read and write it. Two main parts: reference and tasks.
@@ -191,6 +173,6 @@ At two she says: "Venue's booked, Hilltop Farm. Dan's done. Newsletter's half dr
 
 *Drawn from Rufus Pollock's notes on AI as the new interface and from practice at Life Itself, October 2026. This is a first version: comments and corrections welcome.*
 
-## Where next
+## Next
 
-- [Post-its and filing cabinets](/use/knowledge-work/concepts): how to organise documents and tasks so you and your AI can find them.
+[Try it: two exercises →](/use/knowledge-work/try-it)
